@@ -1,0 +1,19 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+.btn
+{
+    .button();
+
+    &.btn-primary    { background-color: @background-color-info; }
+    &.btn-info       { background-color: @background-color-info; }
+    &.btn-success    { background-color: @background-color-success; }
+    &.btn-warning    { background-color: fade(@background-color-warning, 75%); }
+    &.btn-error      { background-color: @background-color-error; }
+}
+
+
+.caret {
+  border-top: 5px solid #fff;
+  margin-top: -1px;
+}

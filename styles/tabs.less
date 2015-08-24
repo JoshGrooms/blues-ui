@@ -1,0 +1,116 @@
+@import "ui-variables";
+@modified-icon-width: 8px;
+@tab-skew: 0deg;
+@tab-top-padding: 0px;
+
+
+
+@tab-modified-icon-top:     (@tab-title-height - @tab-modified-icon-size) / 2;
+@tab-title-height:          @tab-height + @tab-bar-margin;
+
+.tab-bar
+{
+    .beveled(1px, inset, fade(@shadow-color, 12.5%), fade(@gloss-color, 12.5%));
+
+    background-color:       fade(@shadow-color, 25%);
+    box-shadow:             inset 1px 2px 3px fade(@shadow-color, 37.5%);
+    border-radius:          0.25em;
+
+    height:                 @tab-height;
+    margin:                 @tab-bar-margin 0em @tab-bar-margin 0em;
+    padding:                1px @tab-bar-padding 1px @tab-bar-padding;
+    z-index:                3;
+
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .tab
+    {
+        background:         transparent;
+        color:              @tab-text-color;
+        padding:            0em 1em 0em 0em;
+        margin:             0em @tab-spacing 0em @tab-spacing;
+        transition:         color .1s ease-in,
+                            border-bottom .1s ease-in;
+
+        .close-icon
+        {
+            color:          transparent;
+            line-height:    @tab-modified-icon-size;
+            height:         @tab-modified-icon-size;
+            right:          0px;
+
+            // A fudge-factor of 0.125em is needed below because, for some reason, the character 'x' (used as the close icon)
+            // doesn't naturally align with the text in the adjacent box (i.e. the tab title).
+            top:            @tab-modified-icon-top - 0.125em;
+            width:          @tab-modified-icon-size;
+            z-index:        1;
+
+            &::before
+            {
+                line-height:        @tab-modified-icon-size;
+                height:             @tab-modified-icon-size;
+                font-size:          @tab-modified-icon-size;
+                width:              @tab-modified-icon-size;
+            }
+
+            &:hover         { color: #FF0000; }
+        }
+
+        &:hover .close-icon
+        {
+            color:          @red;
+            &:hover         { color: #FF0000; }
+        }
+
+        &.modified:not(:hover) .close-icon
+        {
+            border:         0.25em solid @tab-text-color-modified;
+            height:         @tab-modified-icon-size;
+            width:          @tab-modified-icon-size;
+            top:            @tab-modified-icon-top - 0.125em;
+            right:          0px;
+        }
+
+        &.modified:hover .close-icon:hover
+        {
+            color: #FF0000;
+        }
+
+        .title
+        {
+            line-height:    @tab-title-height;
+            height:         @tab-title-height;
+            padding-right:  0.5em;
+            text-align:     center;
+            z-index:        1;
+        }
+    }
+
+    .tab.active
+    {
+        background-color:   @tab-background-color-active;
+        border-bottom:      @tab-underline-height solid @tab-text-color-active;
+        box-shadow:         inset 0px -5px 5px -5px @tab-text-color-active;
+        color:              @tab-text-color-active;
+        font-weight:        bold;
+        z-index:            1;
+
+        &.modified
+        {
+            color:              @tab-text-color-modified;
+            border-bottom:      @tab-underline-height solid @tab-text-color-modified;
+            box-shadow:         inset 0px -5px 5px -5px @tab-text-color-modified;
+
+        }
+        .close-icon
+        {
+            color:          @tab-text-color-active;
+            &:hover         { color: #FF0000; }
+        }
+
+    }
+
+}

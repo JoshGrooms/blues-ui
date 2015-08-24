@@ -1,0 +1,68 @@
+@import "ui-variables";
+
+.tooltip
+{
+    @tip-background-color: @overlay-background-color;
+    @tip-text-color: @text-color;
+
+    .beveled(1px, inset, fade(@gloss-color-dark, 12.5%), fade(@shadow-color, 12.5%));
+    .text(normal);
+
+    background-color:       @overlay-background-color;
+    border-radius:          @component-border-radius;
+    box-shadow:             3px 3px 5px fade(@shadow-color, 50%),
+                            0px 0px 0px 1px fade(@shadow-color-lighter, 87.5%);
+    white-space: nowrap;
+
+    .keystroke
+    {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        color: #777;
+        padding-left: 2px;
+    }
+
+    &.in { opacity: 1; }
+
+    .tooltip-inner
+    {
+        .text(normal);
+        background-color:   transparent;
+        line-height:        1em;
+        max-width:          none;
+        white-space:        nowrap;
+    }
+
+    &.top .tooltip-arrow
+    {
+        border-top-color: @tip-background-color;
+    }
+    &.top-left .tooltip-arrow
+    {
+        border-top-color: @tip-background-color;
+    }
+    &.top-right .tooltip-arrow
+    {
+        border-top-color: @tip-background-color;
+    }
+    &.right .tooltip-arrow
+    {
+        border-right-color: @tip-background-color;
+    }
+    &.left .tooltip-arrow
+    {
+        border-left-color: @tip-background-color;
+    }
+    &.bottom .tooltip-arrow
+    {
+        border-bottom-color: @tip-background-color;
+    }
+    &.bottom-left .tooltip-arrow
+    {
+        border-bottom-color: @tip-background-color;
+    }
+    &.bottom-right .tooltip-arrow
+    {
+        border-bottom-color: @tip-background-color;
+    }
+}

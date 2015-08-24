@@ -1,0 +1,73 @@
+/** SETTINGS **/
+
+.settings-view
+{
+
+    .breadcrumb
+    {
+        color: #bbbbbb;
+
+        .active a
+        {
+            .text(heading)
+        }
+    }
+
+    .config-menu
+    {
+        background-color: transparent;
+        li
+        {
+            &.active > a
+            {
+                background-image: @vibrant-blue-gradient;
+            }
+            &:hover
+            {
+                background-color: @silver;
+                background-image: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .panels .package-card
+    {
+        .card-name a            { .text(normal); }
+        .package-description    { .text(subtle); }
+    }
+}
+
+.styleguide
+{
+    .deep-inset();
+    padding: 0px;
+    section
+    {
+        background-color: fade(@shadow-color, 25%);
+        border-bottom: 2.5px solid fade(@shadow-color, 50%);
+
+        &.collapsed
+        {
+            .section-heading
+            {
+                color: @text-color;
+            }
+        }
+
+        // .section-heading
+        // {
+        //     color: @vibrant-blue;
+        //
+        //     &:hover
+        //     {
+        //         color: @silver;
+        //     }
+        //
+        //     &:active
+        //     {
+        //         color: @vibrant-blue;
+        //     }
+        // }
+    }
+}

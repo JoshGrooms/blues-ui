@@ -1,0 +1,41 @@
+@import "ui-variables";
+
+* {
+	box-sizing: border-box;
+}
+
+atom-workspace
+{
+  	background-color: @app-background-color;
+}
+
+.scrollbars-visible-always
+{
+	z-index: 5;
+
+  	/deep/ ::-webkit-scrollbar
+	{
+    	width: 10px !important;
+    	height: 10px !important;
+  	}
+
+	/deep/ ::-webkit-scrollbar-track
+	{
+		// background: 		@scrollbar-background-color;
+		background-color: 	fade(@shadow-color, 0.25);
+		border-radius: 		20px;
+		box-shadow: 		inset 0px 0px 2.5px @light-black;
+  	}
+
+	/deep/ ::-webkit-scrollbar-corner
+	{
+		background: transparent;
+	}
+
+	/deep/ ::-webkit-scrollbar-thumb
+	{
+		background: @scrollbar-foreground-color;
+    	border-radius: 20px;
+    	box-shadow: 0 0 1px black inset;
+  	}
+}
