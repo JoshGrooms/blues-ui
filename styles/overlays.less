@@ -9,6 +9,7 @@
     padding: 0.5em;
 }
 
+/* POPOVER-LIST - Governs the lists that appear in smaller modal windows and overlays. */
 .popover-list
 {
     .shallow-outset();
@@ -21,19 +22,25 @@
 
         &.select-list > .suggestion-description
         {
-            background-color: @autocomplete-description-color;
-            border-top: 1px solid fade(@gloss-color-dark, 12.5%);
-        }
-        .suggestion-list-scroller li
-        {
+            // background-color: @autocomplete-description-color;
             background-color: transparent;
-        }
+            border-top: 1px solid @gloss-color;
+            color: @text-color;
 
+        }
         .suggestion-list-scroller
         {
             .inset-list();
-            border-radius: 0.5em;
-            margin: 3px;
+            border-radius: 0.5em 0.5em 0em 0em;
+            // border-bottom: 2px solid @shadow-color;
+            // margin: 3px;
+            margin: 0.25em;
+
+            // border-bottom: 2px solid @shadow-color;
+
+
+
+            li { background-color: transparent; }
         }
     }
 }
@@ -41,153 +48,4 @@
 .autocomplete-plus
 {
     max-width: 400px;
-
 }
-
-
-
-
-
-//
-// atom-panel.modal,
-// .overlay,
-// .overlay.from-top,
-// .popover-list
-// {
-//     .beveled(1px, inset, fade(@gloss-color-dark, 12.5%), fade(@shadow-color, 12.5%));
-//
-//     background-color:       @overlay-background-color;
-//     border-radius:          @component-border-radius;
-//     box-shadow:             3px 3px 5px fade(@shadow-color, 50%),
-//                             0px 0px 0px 1px fade(@shadow-color-lighter, 87.5%);
-//     padding:                @component-padding;
-//
-//     atom-text-editor[mini]
-//     {
-//         margin-bottom:      @component-padding;
-//     }
-//
-//     ol
-//     {
-//         .deep-inset();
-//         border-radius:      @component-border-radius;
-//
-//         .popover-list &
-//         {
-//             box-shadow: none;
-//             border: none;
-//             border-radius: @component-border-radius;
-//
-//             // border-radius: 0px;
-//
-//         }
-//     }
-//
-//     li
-//     {
-//         .text(subtle);
-//         padding: @component-padding;
-//
-//         &.two-lines
-//         {
-//             padding: @component-padding/2 @component-padding;
-//         }
-//
-//         .status.icon
-//         {
-//             float: right;
-//             margin-left: @component-icon-padding;
-//             &:before
-//             {
-//                 margin-right: 0;
-//             }
-//         }
-//
-//         &.selected
-//         {
-//         color: @text-color-selected;
-//             .status.icon
-//             {
-//                 color: @text-color-selected;
-//             }
-//         }
-//
-//         .popover-list &
-//         {
-//             // border: 1px solid @red;
-//             border: none;
-//
-//
-//         }
-//     }
-//
-// }
-//
-// atom-panel.modal.mini,
-// .overlay.floating,
-// .overlay.mini
-// {
-//     // background-color: #00FF00;
-//     background-color: @red;
-//
-// }
-//
-// // .autocomplete-suggestion-list
-// // {
-// //     .shallow-outset();
-// //
-// //     // border: 1px solid @green;
-// //     background-color: @red;
-// //     padding: 0px;
-// //
-// //     ol
-// //     {
-// //         border: 1px solid @blue;
-// //         // background-color: @overlay-background-color;
-// //
-// //
-// //
-// //     }
-// //
-// //     .suggestion-description
-// //     {
-// //         border: 1px solid @red;
-// //
-// //     }
-// //
-// //     // .select-list.popover-list
-// //     // {
-// //     //     .shallow-outset();
-// //     //     // color: @red;
-// //     //
-// //     //
-// //     //     .suggestion-list-scroller
-// //     //     {
-// //     //         background-color: @overlay-background-color;
-// //     //         background-image: none;
-// //     //
-// //     //     }
-// //     //
-// //     //     li
-// //     //     {
-// //     //         // background-color: @overlay-background-color;
-// //     //         background-color: @red;
-// //     //
-// //     //         .text(subtle);
-// //     //         > span
-// //     //         {
-// //     //             .text(subtle);
-// //     //
-// //     //         }
-// //     //     }
-// //     //   //
-// //     //   // .list-group li
-// //     //   // {
-// //     //   //     color: @dark-gray;
-// //     //   //     padding-left: @component-padding/2;
-// //     //   //     > span { color: @dark-gray; }
-// //     //   // }
-// //     //
-// //     // }
-// //
-// // }

@@ -3,17 +3,13 @@
 @tab-skew: 0deg;
 @tab-top-padding: 0px;
 
-
-
 @tab-modified-icon-top:     (@tab-title-height - @tab-modified-icon-size) / 2;
 @tab-title-height:          @tab-height + @tab-bar-margin;
 
 .tab-bar
 {
-    .beveled(1px, inset, fade(@shadow-color, 12.5%), fade(@gloss-color, 12.5%));
+    .shallow-inset();
 
-    background-color:       fade(@shadow-color, 25%);
-    box-shadow:             inset 1px 2px 3px fade(@shadow-color, 37.5%);
     border-radius:          0.25em;
 
     height:                 @tab-height;
@@ -29,7 +25,7 @@
     .tab
     {
         background:         transparent;
-        color:              @tab-text-color;
+        color:              @text-color;
         padding:            0em 1em 0em 0em;
         margin:             0em @tab-spacing 0em @tab-spacing;
         transition:         color .1s ease-in,
@@ -56,18 +52,18 @@
                 width:              @tab-modified-icon-size;
             }
 
-            &:hover         { color: #FF0000; }
+            &:hover         { color: @red; }
         }
 
         &:hover .close-icon
         {
             color:          @red;
-            &:hover         { color: #FF0000; }
+            &:hover         { color: @red; }
         }
 
         &.modified:not(:hover) .close-icon
         {
-            border:         0.25em solid @tab-text-color-modified;
+            border:         0.25em solid @text-color-modified;
             height:         @tab-modified-icon-size;
             width:          @tab-modified-icon-size;
             top:            @tab-modified-icon-top - 0.125em;
@@ -91,24 +87,23 @@
 
     .tab.active
     {
-        background-color:   @tab-background-color-active;
-        border-bottom:      @tab-underline-height solid @tab-text-color-active;
-        box-shadow:         inset 0px -5px 5px -5px @tab-text-color-active;
-        color:              @tab-text-color-active;
+        background-color:   transparent;
+        border-bottom:      @tab-underline-height solid @selection-color;
+        box-shadow:         inset 0px -5px 5px -5px @selection-color;
+        color:              @selection-color;
         font-weight:        bold;
         z-index:            1;
 
         &.modified
         {
-            color:              @tab-text-color-modified;
-            border-bottom:      @tab-underline-height solid @tab-text-color-modified;
-            box-shadow:         inset 0px -5px 5px -5px @tab-text-color-modified;
-
+            color:              @text-color-modified;
+            border-bottom:      @tab-underline-height solid @text-color-modified;
+            box-shadow:         inset 0px -5px 5px -5px @text-color-modified;
         }
         .close-icon
         {
-            color:          @tab-text-color-active;
-            &:hover         { color: #FF0000; }
+            color:          @selection-color;
+            &:hover         { color: @red; }
         }
 
     }

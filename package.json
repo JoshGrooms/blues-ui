@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "description": "A dark UI theme for Atom",
   "license": "MIT",
-  "repository": "",
-  "engines": {
-    "atom": ">0.40.0"
-  }
+  "repository": "https://github.com/JoshGrooms/blues-ui.git",
+  "engines": { "atom": "*" },
+  "dependencies": { "standards": "https://github.com/JoshGrooms/Standards.git" }
 }

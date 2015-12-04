@@ -1,0 +1,127 @@
+/* CHANGELOG
+ * Written by Josh Grooms on 20151203
+ */
+
+
+
+.checkbox input[type = 'checkbox']
+{
+    .shallow-inset();
+    border-radius:  2em;
+    height:         1.5em;
+    margin-top:     0.125em;
+    width:          1.5em;
+
+    &::after,
+    &::before { background-color: transparent; }
+
+    &:checked
+    {
+        background: -webkit-radial-gradient(
+            lighten(@selection-color, 14.29%)   12.5%,
+            lighten(@selection-color, 4.76%)    50%,
+            darken(@selection-color, 14.29%)    87.5%);
+        background-clip: border-box;
+        border-color: @shadow-color;
+        box-shadow: 0px 0px 1px fade(@selection-color, 75%);
+
+        &:hover
+        {
+            background: -webkit-radial-gradient(
+                lighten(@selection-color, 24.11%)   12.5%,
+                lighten(@selection-color, 14.29%)   50%,
+                darken(@selection-color, 0%)        87.5%);
+            box-shadow: 0px 0px 1px fade(@selection-color, 50%);
+        }
+    }
+
+    &:hover
+    {
+        background: -webkit-radial-gradient(
+            lighten(@highlight-color, 14.29%)   12.5%,
+            lighten(@highlight-color, 4.76%)    50%,
+            darken(@highlight-color, 14.29%)    87.5%);
+        background-clip: border-box;
+        border-color: @shadow-color;
+        box-shadow: 0px 0px 1px fade(@highlight-color, 75%);
+    }
+}
+
+editor.mini,
+atom-text-editor[mini],
+atom-text-editor[mini].is-focused
+{
+    .shallow-inset();
+    .text(normal);
+
+    background-color:       @inset-color;
+    background-image:       none;
+    border-radius:          2em;
+    fill:                   transparent;
+    height:                 2em;
+    opacity:                1 !important;
+    padding:                0em 1em 0em 1em;
+
+    &::-webkit-scrollbar    { display: none; }
+    &::shadow
+    {
+        .text,
+        .placeholder-text       { font-size: 0.875em;}
+        .cursor
+        {
+            border-color:   @text-color;
+            height:         1.25em !important;
+            margin-top:     0.375em;
+        }
+        .has-selection
+        {
+            .text,
+            .placeholder-text   { color: @text-color-highlighted; }
+
+            .highlight.selection .region
+            {
+                background-color:   @highlight-color;
+                height:             1.25em !important;
+                margin-top:         0.375em;
+            }
+        }
+    }
+}
+
+select.form-control
+{
+    .shallow-inset() !important;
+    background-clip: padding-box;
+
+    &:hover
+    {
+        background-color: @highlight-color !important;
+        color: @text-color-highlighted;
+    }
+    option
+    {
+        background-color:   @menu-color;
+        border:             none;
+        color:              @menu-text-color;
+
+        &:hover { background: @vibrant-blue-gradient; }
+    }
+}
+
+.tooltip
+{
+    .shallow-outset();
+
+    background-color:       @tooltip-color;
+    border-radius:          @component-border-radius;
+
+    &.in                { opacity: 1; }
+    .tooltip-arrow      { border: none; }
+    .tooltip-inner
+    {
+        background-color:   transparent;
+        color:              @tooltip-text-color;
+        max-width:          none;
+        white-space:        nowrap;
+    }
+}

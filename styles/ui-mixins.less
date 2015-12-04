@@ -5,16 +5,10 @@
      color:         @text-color-error;
     text-shadow:    none;
 }
-.text(heading)
-{
-    color:          @text-color-heading;
-    font-weight:    bold;
-    text-shadow:    none;
-}
 .text(highlight)
 {
     font-weight:    bold;
-    color:          @text-color-highlight;
+    color:          @text-color-highlighted;
 }
 .text(info)
 {
@@ -23,28 +17,26 @@
 }
 .text(normal)
 {
-    font-weight:    normal;
     color:          @text-color;
+    font-weight:    normal;
     text-shadow:    none;
 }
 .text(selected)
 {
-    .text(highlight)
+    color:          @text-color-selected;
+    font-weight:    bold;
 }
 .text(success)
 {
     color: @text-color-success;
     text-shadow: none;
 }
-.text(subheading)
-{
-    color:          @text-color;
-}
+
 .text(subtle)
 {
-    font-weight: normal;
-    color: @text-color-subtle;
-    text-shadow: none;
+    color:          @text-color-dim;
+    font-weight:    normal;
+    text-shadow:    none;
 }
 .text(warning)
 {
@@ -53,59 +45,59 @@
 }
 
 
-
-
-
-@shade-darker:          14.29%;
-@shade-dark:            9.52%;
-@shade-semidark:        4.76%;
-@shade-normal:          0%;
-@shade-semilight:       4.76%;
-@shade-light:           9.52%;
-@shade-lighter:         14.29%;
-
-@fade-semiopaque:       87.5%;
-@fade-translucent:      75%;
-@fade-semitranslucent:  62.5%;
-@fade-normal:           50%;
-@fade-semifaded:        37.5%;
-@fade-faded:            25%;
-@fade-semitransparent:  12.5%;
-
-
-.button()
+.heading(primary)
 {
-    .gradient(fade(@gloss-color-lighter, 50%), fade(@gloss-color-darker, 50%));
-    .beveled(1px, inset, fade(@shadow-color, 12.5%), fade(@gloss-color, 12.5%));
-    .text(normal);
-
-    box-shadow: inset 0px 0px 2px fade(@shadow-color, 37.5%);
-
-    &:focus     { color: @dark-blue; }
-    &:hover
-    {
-        .beveled(1px, inset, fade(@shadow-color, 12.5%), fade(@gloss-color, 12.5%));
-        .gradient(fade(@gloss-color-lighter, 75%), fade(@gloss-color-darker, 50%));
-        background-clip: padding-box;
-    }
-    &.selected
-    {
-        .gradient(fade(@gloss-color-darker, 50%), fade(@gloss-color-lighter, 50%));
-        .text(highlight);
-
-        box-shadow: inset 1px 2px 3px fade(@shadow-color-light, 50%);
-
-        &:hover
-        {
-            .gradient(fade(@gloss-color-darker, 75%), fade(@gloss-color-lighter, 75%));
-        }
-    }
+    color:          @text-heading-color-primary;
+    font-size:      2em;
+    font-weight:    bold;
+    font-style:     normal;
 }
+.heading(secondary)
+{
+    color:          @text-heading-color-secondary;
+    font-size:      1.75em;
+    font-weight:    bold;
+    font-style:     normal;
+}
+.heading(tertiary)
+{
+    color:          @text-heading-color-tertiary;
+    font-size:      1.5em;
+    font-weight:    bold;
+    font-style:     normal;
+}
+.heading(quaternary)
+{
+    color:          @text-heading-color-quaternary;
+    font-size:      1.25em;
+    font-weight:    normal;
+    font-style:     normal;
+}
+
+
+// @shade-darker:          14.29%;
+// @shade-dark:            9.52%;
+// @shade-semidark:        4.76%;
+// @shade-normal:          0%;
+// @shade-semilight:       4.76%;
+// @shade-light:           9.52%;
+// @shade-lighter:         14.29%;
+//
+// @fade-semiopaque:       87.5%;
+// @fade-translucent:      75%;
+// @fade-semitranslucent:  62.5%;
+// @fade-normal:           50%;
+// @fade-semifaded:        37.5%;
+// @fade-faded:            25%;
+// @fade-semitransparent:  12.5%;
+
+
+
 
 .deep-inset()
 {
-    .beveled(1px, inset, fade(@shadow-color, 12.5%), fade(@gloss-color-dark, 12.5%));
-    background-color:   fade(@shadow-color, 25%);
+    .bevel(inset);
+    background-color:   @inset-color-dark;
     box-shadow:         inset 10px 10px 10px -10px fade(@shadow-color, 50%);
 }
 
@@ -132,7 +124,6 @@
     li
     {
         .flat();
-        .text(subtle);
         &.selected
         {
             .text(highlight);
@@ -166,10 +157,7 @@
 .inset-list-item()
 {
     .base-list-item();
-    li
-    {
-        padding: 1em;
-    }
+    li { padding: 1em; }
 }
 
 .inset-list()
@@ -183,13 +171,20 @@
 
 }
 
+.shallow-inset()
+{
+    .bevel(inset);
+
+    background-color:       @inset-color;
+    box-shadow:             inset 1px 2px 3px fade(@black, 37.5%);
+}
 .shallow-outset()
 {
-    .beveled(1px, inset, fade(@gloss-color-dark, 12.5%), fade(@shadow-color, 12.5%));
-    .text(normal);
-    background-color:       @overlay-background-color;
-    box-shadow:             3px 3px 5px fade(@shadow-color, 25%),
-                            -1px -1px 1px fade(@shadow-color-lighter, 87.5%);
+    .bevel(outset);
+
+    background-color:       @menu-color;
+    box-shadow:             3px 3px 5px fade(@black, 25%),
+                            -1px -1px 1px fade(lighten(@black, 14.29%), 87.5%);
 }
 
 
@@ -204,17 +199,30 @@
 
 
 
-._beveled(inset)    { background-clip: padding-box; }
-._beveled(outset)   { background-clip: border-box; }
 
-.beveled(@size; @direction: outset; @topLeft; @bottomRight)
+
+._bevel(inset)      { background-clip: padding-box; }
+._bevel(outset)     { background-clip: border-box; }
+._bevel(@size; @topLeft; @bottomRight)
 {
-    ._beveled(@direction);
-
-    border: @size solid @topLeft;
-    border-bottom-color: @bottomRight;
-    border-right-color: @bottomRight;
+    border:                 @size solid @topLeft;
+    border-bottom-color:    @bottomRight;
+    border-right-color:     @bottomRight;
 }
+
+
+.bevel(inset; @size: 1px; @topLeft: @shadow-color-lighter; @bottomRight: @gloss-color)
+{
+    ._bevel(inset);
+    ._bevel(@size, @topLeft, @bottomRight);
+}
+
+.bevel(outset; @size: 1px; @topLeft: @gloss-color; @bottomRight: @shadow-color-lighter)
+{
+    ._bevel(outset);
+    ._bevel(@size, @topLeft, @bottomRight);
+}
+
 
 
 

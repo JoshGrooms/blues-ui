@@ -1,94 +1,58 @@
-@black:             #000000;
-@light-black:       #191919;
-
-@very-light-gray:   #707070;
-@light-gray:        #646464;
-@semi-light-gray:   #575757;    /* [ 87,  87,  87] */
-@gray:              #4B4B4B;
-@semi-dark-gray:    #3E3E3E;
-@dark-gray:         #323232;
-@very-dark-gray:    #252525;
-
-@very-dark-silver:  #7D7D7D;    // [125, 125, 125]
-@dark-silver:       #898989;    // [137, 137, 137]
-@semi-dark-silver:  #969696;    // [150, 150, 150]
-@silver:            #A2A2A2;    // [162, 162, 162]
-@semi-light-silver: #AFAFAF;    // [175, 175, 175]
-@light-silver:      #BBBBBB;    // [187, 187, 187]
-@very-light-silver: #C8C8C8;    // [200, 200, 200]
-@very-dark-white:   #D4D4D4;    // [212, 212, 212]
-@dark-white:        #E1E1E1;    // [225, 225, 225]
-@semi-dark-white:   #EDEDED;    // [237, 237, 237]
-@white:             #FFFFFF;
-
-// @blue:              #81a2be;
-@blue:              #3296FF;
-@cyan:              #8abeb7;
-@green:             #b5bd68;
-@light-orange:      #f0c674;
-@orange:            #de935f;
-@purple:            #b294bb;
-@red:               #cc6666;
-
-// @dark-blue:         #3296FF;    // [ 50, 150, 255]
-@light-blue:        #3296FF;
-@dark-blue:         #0064FF;
-@vibrant-blue:      #00C8FF;
-// @vibrant-blue:      darken(#00C8FF, 10%);
-
-
+@import "../Standards/Colors/UI";
 
 
 
 /** GRADIENTS **/
-@vibrant-blue-gradient: -webkit-linear-gradient(
+@vibrant-blue-gradient:             -webkit-linear-gradient(
     top,
     lighten(@vibrant-blue, 15%),
     darken(@vibrant-blue, 15%));
 
-@vibrant-blue-gradient-vertical: -webkit-linear-gradient(
+@vibrant-blue-gradient-vertical:    -webkit-linear-gradient(
     left,
     lighten(@vibrant-blue, 12.5%),
     darken(@vibrant-blue, 12.5%));
 
-@dark-gray-gradient: -webkit-linear-gradient(
+@dark-gray-gradient:                -webkit-linear-gradient(
     top,
     darken(@dark-gray, 12.5%),
     lighten(@dark-gray, 0%));
 
-@silver-gradient-vertical:       -webkit-linear-gradient(
+@silver-gradient-vertical:          -webkit-linear-gradient(
     left,
     lighten(@gray, 12.5%),
     lighten(@gray, 0%));
 
-@silver-gradient-horizontal:     -webkit-linear-gradient(
+@silver-gradient-horizontal:        -webkit-linear-gradient(
     top,
-    lighten(@gray, 12.5%),
-    lighten(@gray, 0%));
+    lighten(@silver, 12.5%),
+    darken(@silver, 12.5%));
 
 
 
 /** BUILTIN THEME COLORS **/
+// These colors are provided in order to prevent breaking any downloaded packages that might depend on them. Otherwise, they
+// are not used by this theme.
 @app-background-color:              @window-color;
 @base-background-color:             @window-color;
 @base-border-color:                 transparent;
 
-@background-color-error:            #c00;
+@background-color-error:            @maroon;
 @background-color-highlight:        @silver;
-@background-color-info:             #0098ff;
-@background-color-selected:         @vibrant-blue-gradient;
-@background-color-success:          #17ca65;
-@background-color-warning:          #ffaa2c;
+@background-color-info:             @deep-blue;
+@background-color-selected:         @vibrant-blue;
+@background-color-success:          @forest-green;
+@background-color-warning:          @copper;
 
 @button-background-color:           transparent;
-@button-background-color-hover:     @silver;
-@button-background-color-selected:  @vibrant-blue;
-@button-border-color:               @light-black;
+@button-background-color-hover:     @highlight-color;
+@button-background-color-selected:  @selection-color;
+@button-border-color:               transparent;
 
-@input-background-color:            @dark-gray;
-@input-border-color:                @gray;
+@input-background-color:            @inset-color;
+@input-border-color:                transparent;
 
-@inset-panel-background-color:      fade(@shadow-color, 0.25);
+@inset-panel-background-color:      @inset-color;
 @inset-panel-border-color:          transparent;                    // Not used
 
 @pane-item-background-color:        transparent;
@@ -97,8 +61,14 @@
 @panel-heading-background-color:    transparent;
 @panel-heading-border-color:        transparent;
 
-@overlay-background-color:          @very-dark-gray;
+@overlay-background-color:          @menu-color;
 @overlay-border-color:              transparent;                    // Not used
+
+@tab-bar-background-color:          @inset-color;
+@tab-bar-border-color:              transparent;
+@tab-background-color:              transparent;
+@tab-background-color-active:       transparent;
+@tab-border-color:                  transparent;
 
 @tree-view-background-color:        transparent;
 @tree-view-border-color:            transparent;
@@ -113,66 +83,34 @@
 @ui-site-color-5:                   #f5e11d; // yellow
 
 
+@text-color-error:                  @red;
+@text-color-highlight:              @text-color-highlighted;
+@text-color-info:                   @light-blue;
+@text-color-subtle:                 @dark-silver;
+@text-color-success:                @spring-green;
+@text-color-warning:                @orange;
+
+
 
 
 /** CUSTOM THEME COLORS **/
 @autocomplete-description-color:    fade(@shadow-color, 12.5%);
-// @autocomplete-description-color:    @overlay-background-color;
 
 
-@text-color:                        @light-silver;
-@text-color-added:                  @text-color-success;
-@text-color-error:                  #c00;
-@text-color-heading:                @dark-blue;
-@text-color-highlight:              @dark-gray;
-@text-color-ignored:                @text-color-subtle;
-@text-color-info:                   @light-blue;
-@text-color-modified:               @text-color-warning;
-@text-color-removed:                @text-color-error;
-@text-color-renamed:                @text-color-info;
-@text-color-selected:               @dark-gray;
-@text-color-subheading:             @text-color;
-@text-color-subtle:                 @dark-silver;
-@text-color-success:                #2BDA77;
-@text-color-warning:                #ff982d;
+// @text-color-added:                  @version-added;
 
-@window-color:                      @gray;
-@window-color-dim:                  @semi-dark-gray;
-@window-color-dimmer:               @dark-gray;
-@window-color-light:                @light-gray;
-
-@gloss-color-darker:                darken(@gloss-color, 14.29%);
-@gloss-color-dark:                  darken(@gloss-color, 9.52%);
-@gloss-color-semidark:              darken(@gloss-color, 4.76%);
-@gloss-color-normal:                @gloss-color;
-@gloss-color:                       @silver;
-@gloss-color-semilight:             lighten(@gloss-color, 4.76%);
-@gloss-color-light:                 lighten(@gloss-color, 9.52%);
-@gloss-color-lighter:               lighten(@gloss-color, 14.29%);
+// @gloss-color-darker:                darken(@gloss-color, 14.29%);
+// @gloss-color-dark:                  darken(@gloss-color, 9.52%);
+// @gloss-color-semidark:              darken(@gloss-color, 4.76%);
+// @gloss-color-normal:                @gloss-color;
+// @gloss-color:                       @silver;
+// @gloss-color-semilight:             lighten(@gloss-color, 4.76%);
+// @gloss-color-light:                 lighten(@gloss-color, 9.52%);
+// @gloss-color-lighter:               lighten(@gloss-color, 14.29%);
 
 @scrollbar-background-color:        @dark-gray; // Needs to be opaque -> atom/atom/issues/4578
 @scrollbar-foreground-color:        @silver-gradient-vertical;
 @scrollbar-color:                   @vibrant-blue;
-
-@shadow-color-normal:               @shadow-color;
-@shadow-color:                      @black;
-@shadow-color-semilight:            lighten(@shadow-color, 4.76%);
-@shadow-color-light:                lighten(@shadow-color, 9.52%);
-@shadow-color-lighter:              lighten(@shadow-color, 14.29%);
-
-@tab-bar-background-color:          rgba(0, 0, 0, 0.125);
-@tab-bar-border-color:              transparent;
-@tab-background-color:              transparent;
-@tab-background-color-active:       transparent;
-@tab-border-color:                  transparent;
-@tab-text-color:                    @silver;
-@tab-text-color-active:             @vibrant-blue;
-@tab-text-color-modified:           #0064FF;
-
-
-
-
-
 
 
 
@@ -202,5 +140,5 @@
 
 // Other
 
-@font-family: 'Consolas', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+// @font-family: 'Consolas', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
 // @font-family: Ubuntu;

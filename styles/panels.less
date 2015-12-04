@@ -5,54 +5,13 @@
 
 .inset-panel
 {
-    .deep-inset();
+    .shallow-inset();
     border-radius: 0.25em;
 }
 
 .panels
 {
     .deep-inset();
-    .text(normal);
     border-radius:  0.25em;
     padding:        0px;
-
-    .section
-    {
-        border-top:             1px solid @red;
-        border-bottom:          2.5px solid fade(@shadow-color, 50%);
-        .section-heading        { .text(heading); }
-        .sub-section-heading    { .text(subheading); }
-    }
 }
-
-.tool-panel
-{
-    .flat();
-    .text(normal);
-
-    background-color: @tool-panel-background-color;
-}
-
-
-// .panel-heading
-// {
-//     .text(normal);
-//     // .deep-inset();
-//
-//     // border-radius: 2.5px;
-//     // background-color: fade(@gloss-color, 25%);
-//     background-color: @window-color-light;
-//     border-radius: 0px;
-//     margin: 0px;
-//
-//   .btn
-//   {
-//     // padding-left: 8px;
-//     // padding-right: 8px;
-//     @bg: lighten(@button-background-color, 10%);
-//     @hover: lighten(@button-background-color-hover, 10%);
-//     @selected: lighten(#FF0000, 10%);
-//     @text: lighten(@text-color, 10%);
-//     // .btn-background(@bg, @hover, @selected, @text);
-//   }
-// }

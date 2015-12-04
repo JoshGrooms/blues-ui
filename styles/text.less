@@ -3,36 +3,41 @@
 
 h1, h2, h3
 {
-    line-height: 1em;
-    margin-bottom: 15px
+    // line-height: 1em;
+    // margin-bottom: 15px
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.2em; }
+h1 { .heading(secondary); }
+h2 { .heading(tertiary); }
+h3 { .heading(quaternary); }
+h4 { .heading(quaternary); }
 
-p {
-  line-height: 1.6;
-  margin-bottom: 15px;
+/* P - A class that represents any general body or paragraph of text. */
+p           { .text(normal); }
+
+label       { font-weight: normal; }
+
+a, .link    { color: @link-color; }
+
+pre
+{
+    .text(normal);
+    background: @inset-panel-background-color;
+    border: none;
+    border-radius: @component-border-radius;
 }
 
-label {
-  font-weight: normal;
+/* CODE - A class of emphasized text found in an otherwise ordinary body. */
+code
+{
+    background-color: transparent;
+    color:            @light-blue;
 }
 
-pre {
-  box-shadow: none;
-  color: @text-color;
-  background: @inset-panel-background-color;
-  border-radius: @component-border-radius;
-  border: none;
-  margin: 0;
-}
-
-code {
-  .text(highlight);
-  background: @background-color-highlight;
-  border-radius: @component-border-radius;
+.background-message
+{
+    color:          @text-color;
+    font-weight:    bold;
 }
 
 // .selected { .text(highlight); }
@@ -43,7 +48,8 @@ code {
 .text-highlight { .text(highlight); }
 
 .text-error { .text(error); }
-.text-info {
+.text-info
+{
   .text(info);
   &:hover { color: @text-color-info; }
 }
@@ -56,8 +62,9 @@ code {
   &:hover { color: @text-color-success; }
 }
 
-.highlight {
-  color: @text-color-highlight;
+.highlight
+{
+  // color: @text-color-highlight;
   font-weight: bold;
   text-shadow: none;
   background-color: @background-color-highlight;

@@ -1,13 +1,16 @@
 @import "ui-variables";
 
+
+
+/** DEFAULT STYLE **/
 * {
-	box-sizing: border-box;
+    .flat();
+	box-sizing:    border-box;
+    text-shadow:   none;
+    outline:       none;
 }
 
-atom-workspace
-{
-  	background-color: @app-background-color;
-}
+
 
 .scrollbars-visible-always
 {
@@ -21,10 +24,9 @@ atom-workspace
 
 	/deep/ ::-webkit-scrollbar-track
 	{
-		// background: 		@scrollbar-background-color;
-		background-color: 	fade(@shadow-color, 0.25);
-		border-radius: 		20px;
-		box-shadow: 		inset 0px 0px 2.5px @light-black;
+        .shallow-inset();
+        border:         none;
+		border-radius: 	2em;
   	}
 
 	/deep/ ::-webkit-scrollbar-corner
@@ -35,7 +37,46 @@ atom-workspace
 	/deep/ ::-webkit-scrollbar-thumb
 	{
 		background: @scrollbar-foreground-color;
-    	border-radius: 20px;
+    	border-radius: 2em;
     	box-shadow: 0 0 1px black inset;
   	}
+}
+
+atom-pane-container
+{
+    atom-pane-axis.horizontal > *
+    {
+        border-right: 0.5em solid transparent;
+        &:last-child { border-right: none; }
+    }
+
+    atom-pane-axis.horizontal > atom-pane-resize-handle
+    {
+        background-color:       transparent;
+        width:                  0.5em;
+        z-index:                6;
+    }
+
+    atom-pane-axis.vertical > *
+    {
+        &:last-child { border-bottom: none; }
+    }
+
+    atom-pane-axis.vertical > atom-pane-resize-handle
+    {
+        background-color:       transparent;
+        height:                 0.25em;
+        z-index:                6;
+    }
+
+}
+
+
+atom-text-editor
+{
+    .bevel(inset);
+    &::shadow
+    {
+        .line-numbers { color: @text-color; }
+    }
 }
