@@ -49,3 +49,45 @@
 {
     max-width: 400px;
 }
+
+
+atom-notification
+{
+    .shallow-outset();
+
+    border-radius:      0.5em;
+
+    &.fatal
+    {
+        &.icon:before
+        {
+            background-color:   transparent;
+            background-image:   none;
+        }
+
+        .content
+        {
+            background-color: transparent;
+            background-image: none;
+        }
+
+        .detail
+        {
+            .shallow-inset();
+            border-radius:      0.25em;
+            color:              @text-color;
+        }
+
+        .message.item
+        {
+            background-color: transparent;
+            p { color: @text-color-error; }
+
+        }
+
+        .meta.item
+        {
+            .description { color: @text-color; }
+        }
+    }
+}
