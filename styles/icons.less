@@ -1,0 +1,70 @@
+// CHANGELOG
+// Written by Josh Grooms on 20160207
+
+
+@clockIcon:     url('atom://blues-ui/Icons/Clock.svg');
+@folderIcon:    url('atom://blues-ui/Icons/Folder.svg');
+@gitIcon:       url('atom://blues-ui/Icons/Git.svg');
+@helpIcon:      url('atom://blues-ui/Icons/Help.svg');
+@imageIcon:     url('atom://blues-ui/Icons/Photos.svg');
+@infoIcon:      url('atom://blues-ui/Icons/Information.svg');
+@settingsIcon:  url('atom://blues-ui/Icons/Settings.svg');
+@stylusIcon:    url('atom://blues-ui/Icons/Edit.svg');
+
+.icon(@file)
+{
+    background-image:   @file;
+    background-size:    1em;
+    content:            '';
+}
+
+
+
+.icon-file-directory:before
+{
+    .icon(@folderIcon);
+}
+
+
+[data-name *= 'CHANGELOG']:before
+{
+    .icon(@clockIcon);
+}
+
+[data-name *= 'LICENSE']:before
+{
+    .icon(@infoIcon);
+}
+
+[data-name *= 'README']:before
+{
+    .icon(@helpIcon);
+}
+
+[data-name *= '.git']:before
+{
+    .icon(@gitIcon);
+}
+
+[data-name $= '.npmignore']:before,
+[data-name $= '.cson']:before,
+[data-name $= '.json']:before
+{
+    .icon(@settingsIcon);
+}
+
+[data-name $= '.gif']:before,
+[data-name $= '.ico']:before,
+[data-name $= '.jpeg']:before,
+[data-name $= '.jpg']:before,
+[data-name $= '.png']:before,
+[data-name $= '.psd']:before,
+[data-name $= '.svg']:before
+{
+  .icon(@imageIcon);
+}
+
+&[data-name $= '.styl']:before
+{
+    .icon(@stylusIcon);
+}
