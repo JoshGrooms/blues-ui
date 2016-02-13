@@ -24,8 +24,15 @@
         background-color: transparent;
         padding-top: 0.125em;
 
-        li.active > a    { background-image: @vibrant-blue-gradient; }
-        li:hover > a     { background-image: @silver-gradient-horizontal; }
+        li.active > a
+        {
+            background-image: @vibrant-blue-gradient;
+        }
+        li:hover > a
+        {
+            background-image: @silver-gradient-horizontal;
+            &::before           { -webkit-filter: brightness(0); }
+        }
 
         .btn { font-size: 0.875em; padding-top: 0.125em; }
     }
@@ -52,7 +59,17 @@
         border-bottom:      2px solid @shadow-color;
         border-top:         1px solid @gloss-color;
 
-        .section-heading    { .heading(primary); }
+        .section-heading
+        {
+            .heading(primary);
+
+            &.icon:before
+            {
+                background-size:    2em;
+                height:             2em;
+                width:              2em;
+            }
+        }
         &:empty
         {
             background-color:   transparent;
