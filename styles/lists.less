@@ -1,6 +1,5 @@
 @import "ui-variables";
 @import "ui-mixins";
-@import "octicon-mixins";
 
 
 /* LIST-GROUP - Governs any general list of items.
@@ -32,4 +31,25 @@ li.ui-sortable-helper
     background-color: red;
     background-image: none;
     border: 1px solid @red;
+}
+
+
+.tree-view
+{
+    .tree-list();
+
+    // .selected .icon::before     { -webkit-filter: brightness(0); }
+    .status-added               { color: @text-version-added; }
+    .status-modified            { color: @text-version-modified; }
+
+
+}
+
+.tree-view-resizer
+{
+  .tree-view-resize-handle
+  {
+      background-color: transparent;
+      width: 1em;
+  }
 }
