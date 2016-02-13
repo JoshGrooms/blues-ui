@@ -1,4 +1,5 @@
 @import "ui-variables";
+
 @modified-icon-width: 8px;
 @tab-skew: 0deg;
 @tab-top-padding: 0px;
@@ -11,11 +12,7 @@
     .shallow-inset();
 
     border-radius:          0.25em;
-
-    height:                 @tab-height;
     margin:                 @tab-bar-margin 0em @tab-bar-margin 0em;
-    padding:                1px @tab-bar-padding 1px @tab-bar-padding;
-    z-index:                3;
 
     &::-webkit-scrollbar
     {
@@ -24,88 +21,38 @@
 
     .tab
     {
-        background:         transparent;
-        color:              @text-color;
-        padding:            0em 1em 0em 0em;
-        margin:             0em @tab-spacing 0em @tab-spacing;
-        transition:         color .1s ease-in,
-                            border-bottom .1s ease-in;
+        background:             transparent;
+        color:                  @text-color;
+        line-height:            @tab-height;
+        padding-top:            1px;
+        text-align:             center;
 
-        .close-icon
+        &.active
         {
-            color:          transparent;
-            line-height:    @tab-modified-icon-size;
-            height:         @tab-modified-icon-size;
-            right:          0px;
+            border-bottom:      @tab-underline-height solid @selection-color;
+            box-shadow:         inset 0px -5px 5px -5px @selection-color;
+            color:              @selection-color;
+            font-weight:        bold;
 
-            // A fudge-factor of 0.125em is needed below because, for some reason, the character 'x' (used as the close icon)
-            // doesn't naturally align with the text in the adjacent box (i.e. the tab title).
-            top:            @tab-modified-icon-top - 0.125em;
-            width:          @tab-modified-icon-size;
-            z-index:        1;
-
-            &::before
+            &.modified
             {
-                line-height:        @tab-modified-icon-size;
-                height:             @tab-modified-icon-size;
-                font-size:          @tab-modified-icon-size;
-                width:              @tab-modified-icon-size;
+                border-bottom:  @tab-underline-height solid @text-color-modified;
+                box-shadow:     inset 0px -5px 5px -5px @text-color-modified;
             }
-
-            &:hover         { color: @red; }
         }
-
-        &:hover .close-icon
-        {
-            color:          @red;
-            &:hover         { color: @red; }
-        }
-
-        &.modified:not(:hover) .close-icon
-        {
-            border:         0.25em solid @text-color-modified;
-            height:         @tab-modified-icon-size;
-            width:          @tab-modified-icon-size;
-            top:            @tab-modified-icon-top - 0.125em;
-            right:          0px;
-        }
-
-        &.modified:hover .close-icon:hover
-        {
-            color: #FF0000;
-        }
-
-        .title
-        {
-            line-height:    @tab-title-height;
-            height:         @tab-title-height;
-            padding-right:  0.5em;
-            text-align:     center;
-            z-index:        1;
-        }
-    }
-
-    .tab.active
-    {
-        background-color:   transparent;
-        border-bottom:      @tab-underline-height solid @selection-color;
-        box-shadow:         inset 0px -5px 5px -5px @selection-color;
-        color:              @selection-color;
-        font-weight:        bold;
-        z-index:            1;
 
         &.modified
         {
             color:              @text-color-modified;
-            border-bottom:      @tab-underline-height solid @text-color-modified;
-            box-shadow:         inset 0px -5px 5px -5px @text-color-modified;
+            font-weight:        bold;
         }
-        .close-icon
+
+        .close-icon:hover       { color: @red; }
+
+        .title::before
         {
-            color:          @selection-color;
-            &:hover         { color: @red; }
+            margin-bottom:      2px;
+            vertical-align:     middle;
         }
-
     }
-
 }
