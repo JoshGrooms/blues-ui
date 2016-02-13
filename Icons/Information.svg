@@ -63,7 +63,8 @@
        x1="256"
        y1="1052.3622"
        x2="256"
-       y2="540.36218" />
+       y2="540.36218"
+       gradientTransform="matrix(0.98699948,0,0,0.98699948,3.3281331,10.353122)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4174"
@@ -93,7 +94,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.953125"
-     inkscape:cx="71.868852"
+     inkscape:cx="-145.31148"
      inkscape:cy="256"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -124,11 +125,11 @@
      id="layer1"
      transform="translate(0,-540.36216)">
     <circle
-       style="fill:#000000;fill-opacity:0;stroke:url(#linearGradient4159);stroke-width:31.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:url(#linearGradient4159);stroke-width:37.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4136"
        cx="256"
        cy="796.36218"
-       r="240.375" />
+       r="237.25" />
     <g
        transform="scale(1.000048,0.99995201)"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:359.68664551px;line-height:125%;font-family:Constantia;-inkscape-font-specification:'Constantia Bold Italic';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4172);fill-opacity:1;stroke:url(#linearGradient4161);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

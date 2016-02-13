@@ -15,7 +15,7 @@
    id="svg4359"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Document.svg">
+   sodipodi:docname="DocumentNew.svg">
   <defs
      id="defs4361">
     <linearGradient
@@ -40,6 +40,15 @@
        y2="-483.23181"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.92528772,0,0,0.92675781,19.051633,-15.161133)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4168"
+       id="linearGradient4228"
+       x1="-498.22986"
+       y1="222.86139"
+       x2="-498.22986"
+       y2="-801.13861"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -48,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1132812"
-     inkscape:cx="-117.67019"
-     inkscape:cy="256"
+     inkscape:zoom="0.2783203"
+     inkscape:cx="-26.248001"
+     inkscape:cy="-836.21362"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -68,7 +77,10 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid4105"
@@ -83,7 +95,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,8 +110,21 @@
        width="366.07745"
        height="474.5"
        x="71.961273"
-       y="-444.25"
-       rx="10"
-       ry="10" />
+       y="-444.25" />
+    <g
+       id="g4218"
+       transform="matrix(0.5,0,0,0.5,504.11493,-62.430695)"
+       style="stroke-width:62.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:url(#linearGradient4228)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4214"
+         d="m -498.22985,-545.13861 0,511.999998"
+         style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4228);stroke-width:62.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4216"
+         d="m -753.72985,-289.63861 512,0"
+         style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4228);stroke-width:62.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>

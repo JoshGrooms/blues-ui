@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient5289">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4176" y2="20.963" xlink:href="#linearGradient5289" gradientUnits="userSpaceOnUse" x2="281.65" y1="480.8" x1="281.65"/>
+ </defs>
+ <path style="stroke-linejoin:round;stroke:url(#linearGradient4176);stroke-width:37.5;fill:none" d="m373.86 372.72h57.055l-0.14888-151.6"/>
+ <rect style="stroke-linejoin:round;stroke-dashoffset:1.2;stroke:url(#linearGradient4176);stroke-linecap:square;stroke-width:37.5;fill:url(#linearGradient4176)" rx="28.145" ry="28.145" height="180.97" width="325.07" y="282.24" x="48.793"/>
+ <rect style="stroke-linejoin:round;fill-opacity:0;stroke-dashoffset:1.2;stroke:url(#linearGradient4176);stroke-linecap:square;stroke-width:37.5" rx="28.145" ry="28.145" height="180.97" width="180.97" y="40.147" x="48.793"/>
+ <rect style="stroke-linejoin:round;stroke-dashoffset:1.2;stroke:url(#linearGradient4176);stroke-linecap:square;stroke-width:37.5;fill:url(#linearGradient4176)" rx="28.145" ry="28.145" height="180.97" width="180.97" y="40.146" x="290.88"/>
+</svg>

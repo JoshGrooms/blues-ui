@@ -60,7 +60,8 @@
        y1="1052.3622"
        x2="256"
        y2="540.36218"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98699948,0,0,0.98699948,3.3281331,10.353122)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -70,7 +71,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.953125"
-     inkscape:cx="71.868852"
+     inkscape:cx="-145.31148"
      inkscape:cy="256"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -101,11 +102,11 @@
      id="layer1"
      transform="translate(0,-540.36216)">
     <circle
-       style="fill:none;fill-opacity:1;stroke:url(#linearGradient4156);stroke-width:31.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient4156);stroke-width:37.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4136"
        cx="256"
        cy="796.36218"
-       r="240.375" />
+       r="237.25" />
     <g
        transform="scale(1.0593499,0.94397516)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:460.30026245px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4148);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

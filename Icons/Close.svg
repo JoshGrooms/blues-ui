@@ -15,31 +15,30 @@
    id="svg4359"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Document.svg">
+   sodipodi:docname="Close.svg">
   <defs
      id="defs4361">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient4168">
+       id="linearGradient4155">
       <stop
          style="stop-color:#3296ff;stop-opacity:1"
          offset="0"
-         id="stop4170" />
+         id="stop4157" />
       <stop
          style="stop-color:#00c8ff;stop-opacity:1"
          offset="1"
-         id="stop4172" />
+         id="stop4159" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4168"
-       id="linearGradient4182"
+       xlink:href="#linearGradient4155"
+       id="linearGradient4161"
        x1="255"
-       y1="69.231827"
+       y1="48.999989"
        x2="255"
-       y2="-483.23181"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.92528772,0,0,0.92675781,19.051633,-15.161133)" />
+       y2="-463"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -48,9 +47,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1132812"
-     inkscape:cx="-117.67019"
-     inkscape:cy="256"
+     inkscape:zoom="0.39360434"
+     inkscape:cx="345.39158"
+     inkscape:cy="-228.60904"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -68,7 +67,16 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true">
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:bbox-paths="false">
     <inkscape:grid
        type="xygrid"
        id="grid4105"
@@ -92,14 +100,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(1,463)">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4182);stroke-width:37.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4158"
-       width="366.07745"
-       height="474.5"
-       x="71.961273"
-       y="-444.25"
-       rx="10"
-       ry="10" />
+    <g
+       id="g4151"
+       style="stroke:url(#linearGradient4161)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4352"
+         d="M 17.939372,-444.06062 492.06062,30.060609"
+         style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4161);stroke-width:37.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4161);stroke-width:37.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 492.06062,-444.06062 17.939372,30.060609"
+         id="path4354"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
