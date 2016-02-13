@@ -2,55 +2,130 @@
 // Written by Josh Grooms on 20160207
 
 
-@clockIcon:     url('atom://blues-ui/Icons/Clock.svg');
-@folderIcon:    url('atom://blues-ui/Icons/Folder.svg');
-@gitIcon:       url('atom://blues-ui/Icons/Git.svg');
-@helpIcon:      url('atom://blues-ui/Icons/Help.svg');
-@imageIcon:     url('atom://blues-ui/Icons/Photos.svg');
-@infoIcon:      url('atom://blues-ui/Icons/Information.svg');
-@settingsIcon:  url('atom://blues-ui/Icons/Settings.svg');
-@stylusIcon:    url('atom://blues-ui/Icons/Edit.svg');
+
+.example-rendered .icon:before
+{
+    background-color: #888;
+}
 
 .icon(@file)
 {
-    background-image:   @file;
+    .example-rendered &
+    {
+        background-color:   transparent;
+    }
+
+    background-image:   url('atom://blues-ui/Icons/@{file}');
     background-size:    1em;
+    background-repeat:  no-repeat;
     content:            '';
+    vertical-align:     text-bottom;
+
+    .active:not(.tab) > &,
+    .selected > &,
+    .selected > .header > &
+    {
+        -webkit-filter: brightness(0);
+    }
 }
 
 
+/** FOLDERS **/
+.icon-bookmark:before                   { .icon('Bookmark.svg'); }
+.icon-check:before                      { .icon('Check.svg'); }
+.icon-chevron-down:before               { .icon('Down.svg'); }
+.icon-chevron-left:before               { .icon('Previous.svg'); }
+.icon-chevron-right:before              { .icon('Next.svg'); }
+.icon-chevron-up:before                 { .icon('Up.svg'); }
+.icon-circle-slash:before               { .icon('Cancel.svg'); }
+.icon-cloud-download:before             { .icon('Download.svg'); }
+.icon-cloud-upload:before               { .icon('Upload.svg'); }
+.icon-device-desktop:before             { .icon('Computer.svg'); }
+.icon-file-add:before                   { .icon('DocumentAdd.svg'); }
+.icon-file-directory-create:before      { .icon('FolderAdd.svg'); }
+.icon-file-directory:before             { .icon('Folder.svg'); }
+.icon-file-text:before                  { .icon('Document.svg'); }
+.icon-globe:before                      { .icon('Earth.svg'); }
+.icon-home:before                       { .icon('Home.svg'); }
+.icon-info:before                       { .icon('Information.svg'); }
+.icon-keyboard:before                   { .icon('Shortcuts.svg'); }
+.icon-pencil:before                     { .icon('Pencil.svg'); }
+.icon-question:before                   { .icon('Help.svg'); }
+.icon-repo:before                       { .icon('Git.svg'); }
+.icon-trashcan:before                   { .icon('Trash.svg'); }
+.icon-unmute:before                     { .icon('Sound.svg'); }
 
-.icon-file-directory:before
+
+.icon-alert:before,
+.icon-issue-opened:before
 {
-    .icon(@folderIcon);
+    .icon('Important.svg');
 }
 
-
-[data-name *= 'CHANGELOG']:before
+.icon-clock:before,
+.icon-history:before
 {
-    .icon(@clockIcon);
+    .icon('Clock.svg');
 }
 
-[data-name *= 'LICENSE']:before
+.icon-dash:before
 {
-    .icon(@infoIcon);
+    .icon('Subtract.svg');
 }
 
-[data-name *= 'README']:before
+.icon-gear:before,
+.icon-settings:before,
+.icon-tools:before
 {
-    .icon(@helpIcon);
+    .icon('Settings.svg');
 }
 
-[data-name *= '.git']:before
+.icon-gist-new:before,
+.icon-plus:before
 {
-    .icon(@gitIcon);
+    .icon('Add.svg');
 }
 
+.icon-package:before,
+.icon-file-zip:before
+{
+    .icon('Package.svg');
+}
+.icon-search:before,
+.icon-search-save:before
+{
+    .icon('Search.svg');
+}
+
+.icon-sync:before,
+.icon-repo-sync:before
+{
+    .icon('Sync.svg');
+}
+
+.icon-remove-close:before,
+.icon-x:before
+{
+    .icon('Close.svg');
+}
+
+
+
+/** PACKAGE FILES **/
+[data-name *= 'CHANGELOG']:before   { .icon('Clock.svg'); }
+[data-name *= 'LICENSE']:before     { .icon('Information.svg'); }
+[data-name *= 'README']:before      { .icon('Help.svg'); }
+
+[data-name *= '.git']:before        { .icon('Git.svg'); }
+
+
+
+/** FILE TYPES **/
 [data-name $= '.npmignore']:before,
 [data-name $= '.cson']:before,
 [data-name $= '.json']:before
 {
-    .icon(@settingsIcon);
+    .icon('Settings.svg');
 }
 
 [data-name $= '.gif']:before,
@@ -61,10 +136,10 @@
 [data-name $= '.psd']:before,
 [data-name $= '.svg']:before
 {
-  .icon(@imageIcon);
+  .icon('Photos.svg');
 }
 
-&[data-name $= '.styl']:before
+[data-name $= '.styl']:before
 {
-    .icon(@stylusIcon);
+    .icon('Pencil.svg');
 }
