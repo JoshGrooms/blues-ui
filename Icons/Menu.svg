@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00001 512.00001" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4153" y2="649.11" gradientUnits="userSpaceOnUse" y1="942.61" x2="256" x1="256">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4151" y2="649.11" xlink:href="#linearGradient4153" gradientUnits="userSpaceOnUse" x2="256" gradientTransform="matrix(1.0516 0 0 1.0067 -13.207 -5.8635)" y1="942.61" x1="256"/>
+ </defs>
+ <g style="stroke-width:62.5" transform="matrix(.95094 0 0 .99331 12.559 -534.54)">
+  <g style="stroke:url(#linearGradient4151);stroke-width:64.307">
+   <path style="stroke-linejoin:round;fill-rule:evenodd;stroke:url(#linearGradient4151);stroke-linecap:round;stroke-width:64.307" d="m19.234 667.86h473.53"/>
+   <path style="stroke-linejoin:round;fill-rule:evenodd;stroke:url(#linearGradient4151);stroke-linecap:round;stroke-width:64.307" d="m19.234 796.36h473.53"/>
+   <path style="stroke-linejoin:round;fill-rule:evenodd;stroke:url(#linearGradient4151);stroke-linecap:round;stroke-width:64.307" d="m19.234 923.86h473.53"/>
+  </g>
+ </g>
+</svg>

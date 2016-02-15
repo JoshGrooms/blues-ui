@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4963">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4969" x1="256" xlink:href="#linearGradient4963" gradientUnits="userSpaceOnUse" x2="256" y1="512" y2="3.3838e-7"/>
+  <linearGradient id="linearGradient4179" y2="3.3838e-7" xlink:href="#linearGradient4963" gradientUnits="userSpaceOnUse" x2="256" y1="512" x1="256"/>
+ </defs>
+ <circle cx="255.93" style="stroke-linejoin:round;stroke:url(#linearGradient4969);stroke-width:19.408;fill-opacity:0" r="22.367" cy="231.05"/>
+ <g style="stroke:url(#linearGradient4969)">
+  <path style="stroke-linejoin:round;stroke:url(#linearGradient4179);stroke-linecap:round;stroke-width:37.5;fill-opacity:0" d="m221.09 387.45 264.44-129.48c14.597-7.1476 9.2278-75.145-22.936-140.83-32.16-65.682-79-104.3-93.59-97.158l-264.44 129.48"/>
+  <path style="stroke:url(#linearGradient4969);stroke-width:37.5;fill:none" d="m253.77 208.79c-14.57-135.43-42.18-189.12-63.56-189.83-18.83-0.62-32.82 39.958-28.84 100.31"/>
+  <path style="stroke-linejoin:round;stroke:url(#linearGradient4969);stroke-linecap:round;fill-opacity:0;stroke-width:37.5" d="m206.09 247.27c-33.03-67.45-77.64-109.51-101.53-97.81-23.894 11.701-18.033 72.726 14.997 140.18 33.03 67.453 77.641 109.51 101.54 97.813 23.894-11.701 18.024-72.732-15.007-140.18z"/>
+ </g>
+ <path style="fill-rule:evenodd;fill:url(#linearGradient4179)" d="m173.75 368.23c-18.27-17.48-37.68-44.86-54.19-78.59-33.033-67.45-38.895-128.48-15-140.18 23.894-11.701 68.496 30.355 101.53 97.807 16.515 33.726 26.24 66.535 28.85 91.687l-0.93255 77.205c7.16-0.1 14.51-0.16 21.99-0.16 141.38 0 256 21.49 256 48 0.00002 26.51-114.62 48-256 48s-256-21.49-256-48c-0.000016059-19.36 62.634-36.16 150.69-43.75"/>
+</svg>
