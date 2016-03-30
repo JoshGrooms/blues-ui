@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 512 512">
  <defs>
-  <linearGradient id="linearGradient4221" y2="125.56" gradientUnits="userSpaceOnUse" x2="145.68" gradientTransform="matrix(.987 0 0 .987 426.36 3.1469)" y1="-562.22" x1="145.68">
+  <linearGradient id="linearGradient4221" x1="-284.38" gradientUnits="userSpaceOnUse" y1="-580.04" gradientTransform="matrix(.68460 0 0 -.71982 450.69 94.479)" x2="-284.38" y2="131.25">
    <stop style="stop-color:#3296ff" offset="0"/>
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
  </defs>
- <path style="stroke-linejoin:round;stroke:url(#linearGradient4221);stroke-width:51.558;fill:none" transform="matrix(.70931 0 0 -.74581 152.67 93.17)" d="m145.68 99.787-103.36-209.44-231.12-33.58l167.24-163.02-39.48-230.19 206.72 108.68 206.72-108.68-39.48 230.19 167.24 163.02-231.12 33.584z"/>
+ <path style="stroke-linejoin:round;stroke:url(#linearGradient4221);stroke-width:48;fill:none" d="m256 23.999-71.69 152.74-160.31 24.49 116 118.9-27.38 167.87 143.38-79.26 143.39 79.26-27.39-167.87 116-118.9-160.3-24.49z"/>
 </svg>

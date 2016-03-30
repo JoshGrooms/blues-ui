@@ -5,19 +5,11 @@
    <stop style="stop-color:#3296ff" offset="0"/>
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient4192" y2="540.36" xlink:href="#linearGradient4196" gradientUnits="userSpaceOnUse" x2="254.73" y1="1052.4" x1="254.73"/>
-  <linearGradient id="linearGradient4194" y2="540.36" gradientUnits="userSpaceOnUse" x2="257.27" y1="1052.4" x1="261.5">
-   <stop style="stop-color:#3296ff" offset="0"/>
-   <stop style="stop-color:#00c8ff" offset="1"/>
-  </linearGradient>
-  <linearGradient id="linearGradient4202" y2="262.7" xlink:href="#linearGradient4196" gradientUnits="userSpaceOnUse" x2="-540.36" y1="262.7" x1="-1052.4"/>
+  <linearGradient id="linearGradient4202" x1="-977.42" xlink:href="#linearGradient4196" gradientUnits="userSpaceOnUse" x2="-665.21" gradientTransform="matrix(1.1224 0 0 1.1096 575.98 -98.266)" y1="-69.343" y2="246.47"/>
+  <linearGradient id="linearGradient4201" y2="729.64" xlink:href="#linearGradient4196" gradientUnits="userSpaceOnUse" x2="215.08" gradientTransform="matrix(1.075 0 0 1.075 -42.858 -610.69)" y1="1080.1" x1="-135.34"/>
+  <linearGradient id="linearGradient4217" y2="650.23" xlink:href="#linearGradient4196" gradientUnits="userSpaceOnUse" x2="56.377" gradientTransform="translate(223.54 -643.04)" y1="1145.8" x1="56.377"/>
  </defs>
- <g transform="translate(0 -540.36)">
-  <g style="stroke:url(#linearGradient4192)">
-   <path style="fill-opacity:0;stroke:url(#linearGradient4194);stroke-width:37.5" d="m423.87 964.17a237.35 237.34 0 0 1 -317.8 16.14 237.35 237.34 0 0 1 -48.248 -314.51"/>
-   <path style="fill-opacity:0;stroke:url(#linearGradient4192);stroke-width:37.5" d="m126.89 597.23a237.35 237.34 0 0 1 313.61 49.885 237.35 237.34 0 0 1 -16.69 317.1"/>
-   <ellipse style="fill-opacity:0;stroke:url(#linearGradient4202);stroke-width:37.5" rx="50.314" ry="50.315" transform="rotate(-90)" cy="88.566" cx="-628.99"/>
-   <path style="fill-opacity:0;stroke:url(#linearGradient4192);stroke-width:66.315" d="m490.77 1004.1h-128l64-110.85z" transform="matrix(.54622 -.14636 .14636 .54622 53.14 494.42)"/>
-  </g>
- </g>
+ <path style="stroke-linejoin:round;stroke:url(#linearGradient4201);stroke-width:48;fill:none" transform="matrix(.70710 -.70711 .70710 .70711 0 0)" d="m54.808 136.54a232.08 232.08 0 0 1 175.65 252.95 232.08 232.08 0 0 1 -230.12 204.65 232.08 232.08 0 0 1 -230.71 -203.99 232.08 232.08 0 0 1 174.92 -253.45"/>
+ <ellipse style="stroke:url(#linearGradient4202);stroke-width:48;fill-opacity:0" rx="56.471" transform="rotate(225)" ry="55.827" cy=".0027594" cx="-129.98"/>
+ <path style="stroke:url(#linearGradient4217);stroke-width:48;fill:none" d="m459.97 438.61-79.694 21.354 21.354-79.694z"/>
 </svg>

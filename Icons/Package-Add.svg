@@ -7,12 +7,18 @@
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4293" y2="20.44" xlink:href="#linearGradient4399" gradientUnits="userSpaceOnUse" x2="256.08" y1="479.76" x1="256.03"/>
-  <linearGradient id="linearGradient4679" y2="20.44" xlink:href="#linearGradient4399" gradientUnits="userSpaceOnUse" x2="256.08" gradientTransform="translate(-.0000053182 .0000083834)" y1="479.76" x1="256.03"/>
+  <linearGradient id="linearGradient4160" y2="-1.2539" gradientUnits="userSpaceOnUse" y1="512.84" x2="266.66" x1="266.66">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4138-4" y2="-122.88" xlink:href="#linearGradient4160" gradientUnits="userSpaceOnUse" x2="-700.49" gradientTransform="matrix(.65545 0 0 .65222 715.21 100.59)" y1="581.36" x1="-700.56"/>
+  <linearGradient id="linearGradient4822" y2="-122.88" xlink:href="#linearGradient4160" gradientUnits="userSpaceOnUse" x2="-700.49" gradientTransform="matrix(.65545 0 0 .65222 715.21 100.59)" y1="581.36" x1="-700.56"/>
  </defs>
  <path style="stroke:url(#linearGradient4180);stroke-width:62;fill-opacity:0" d="m283.68 116.11h-55.424l8.4318-53.314h38.561z"/>
  <rect style="stroke-linejoin:round;stroke:url(#linearGradient4293);stroke-width:48;fill:none" ry="5.9104" height="304" width="464" y="152.16" x="23.978"/>
  <path style="stroke-linejoin:round;stroke:url(#linearGradient4293);stroke-linecap:round;stroke-width:48;fill:none" d="m24.132 151.23 40.15-95.073"/>
  <path style="stroke-linejoin:round;stroke:url(#linearGradient4293);stroke-linecap:round;stroke-width:32;fill:none" d="m64.282 48.091h383.54"/>
  <path style="stroke-linejoin:round;stroke:url(#linearGradient4293);stroke-linecap:round;stroke-width:48;fill:none" d="m447.83 56.157 40.06 100.48"/>
- <path style="fill:url(#linearGradient4679);fill-rule:evenodd" d="m319.74 280.16h-127.51l-0.24276-128h128z"/>
+ <path style="stroke:url(#linearGradient4822);stroke-width:48.001;stroke-linecap:round;fill-opacity:0" d="m255.98 232.51v143.31"/>
+ <path style="stroke:url(#linearGradient4138-4);stroke-width:48.001;stroke-linecap:round;fill-opacity:0" d="m184.32 304.16h143.31"/>
 </svg>

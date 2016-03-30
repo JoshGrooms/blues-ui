@@ -5,8 +5,9 @@
    <stop style="stop-color:#3296ff" offset="0"/>
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient4138" y2="-1.2539" xlink:href="#linearGradient4160" gradientUnits="userSpaceOnUse" x2="266.66" gradientTransform="matrix(1.0008 0 0 .99593 -10.876 1.2488)" y1="512.84" x1="266.66"/>
+  <linearGradient id="linearGradient4138" y2="-38.574" xlink:href="#linearGradient4160" gradientUnits="userSpaceOnUse" x2="266.66" gradientTransform="matrix(.65545 0 0 .65225 81.214 89.16)" y1="550.16" x1="266.66"/>
+  <linearGradient id="linearGradient4150" x1="266.66" xlink:href="#linearGradient4160" gradientUnits="userSpaceOnUse" y1="550.16" gradientTransform="matrix(.65545 0 0 .65225 81.214 89.16)" x2="266.66" y2="-38.574"/>
  </defs>
- <path d="m256 0.000003373v512" style="stroke:url(#linearGradient4138);stroke-width:37.5;fill-opacity:0"/>
- <path d="m-0.0003064 256h511.99" style="stroke:url(#linearGradient4138);stroke-width:37.5;fill-opacity:0"/>
+ <path style="fill-opacity:0;stroke:url(#linearGradient4150);stroke-linecap:round;stroke-width:64" d="m256 96.458v319.09"/>
+ <path style="fill-opacity:0;stroke:url(#linearGradient4138);stroke-linecap:round;stroke-width:64" d="m96.453 256h319.09"/>
 </svg>

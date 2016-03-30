@@ -1,102 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="512"
-   height="512"
-   id="svg4359"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="HomeSymbolic.svg">
-  <defs
-     id="defs4361">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4139">
-      <stop
-         style="stop-color:#3296ff;stop-opacity:1"
-         offset="0"
-         id="stop4141" />
-      <stop
-         style="stop-color:#00c8ff;stop-opacity:1"
-         offset="1"
-         id="stop4143" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4139"
-       id="linearGradient4145"
-       x1="254.99936"
-       y1="29.282009"
-       x2="254.99936"
-       y2="-449.79993"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.96698393,0,0,0.96983101,8.4199049,-2.314571)" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.58691406"
-     inkscape:cx="30.793539"
-     inkscape:cy="23.927544"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:grid-bbox="true"
-     inkscape:document-units="px"
-     inkscape:window-width="1237"
-     inkscape:window-height="1381"
-     inkscape:window-x="1147"
-     inkscape:window-y="504"
-     inkscape:window-maximized="0"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     showguides="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4105"
-       originx="1px"
-       originy="1px" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata4364">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(1,463)">
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:1;fill:#000000;fill-opacity:0;stroke:url(#linearGradient4145);stroke-width:37.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 255.00081,-417.06961 -79.13255,80.25001 0,-26.75 -26.37752,0 -26.37752,0 -26.377519,0 0,26.75 0,80.25 -26.377518,26.75 0,0.0536 -26.377518,26.69641 26.377518,0 0,214.000011 26.377518,0 131.887599,0 0,-26.750002 0,-80.250005 52.75502,0 0,107.000007 158.26511,0 0,-26.750002 0,-187.250009 26.37751,0 -26.37751,-26.69776 0,-0.0536 c -58.36474,-64.8415 -122.85566,-125.45224 -184.64262,-187.24866 z"
-       id="rect4156"
-       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
-  </g>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4145" y2="-449.8" gradientUnits="userSpaceOnUse" x2="255" gradientTransform="matrix(.91111 0 0 .91933 22.668 -12.768)" y1="29.282" x1="255">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(1,463)">
+  <path style="fill-opacity:0;stroke:url(#linearGradient4145);stroke-width:48" d="m255-405.93-74.56 76.071v-25.357h-74.56v25.357 76.071c-16.423 16.755-34.749 35.487-49.707 50.714h24.853v202.86h134.04v-101.43h79.858v101.43h134.04v-202.86h24.853z"/>
+ </g>
 </svg>

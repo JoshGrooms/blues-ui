@@ -1,131 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   width="512"
-   height="512"
-   id="svg7384"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="Download.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview8"
-     showgrid="false"
-     inkscape:zoom="0.59082031"
-     inkscape:cx="29.096108"
-     inkscape:cy="161.73526"
-     inkscape:current-layer="svg7384"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-bbox="true"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:object-nodes="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
-     inkscape:bbox-paths="true"
-     inkscape:snap-global="true" />
-  <title
-     id="title9167">Gnome Symbolic Icon Theme</title>
-  <defs
-     id="defs11">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4152">
-      <stop
-         style="stop-color:#3296ff;stop-opacity:1;"
-         offset="0"
-         id="stop4154" />
-      <stop
-         style="stop-color:#00c8ff;stop-opacity:1"
-         offset="1"
-         id="stop4156" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4152"
-       id="linearGradient4166"
-       gradientUnits="userSpaceOnUse"
-       x1="256"
-       y1="512"
-       x2="256"
-       y2="0"
-       gradientTransform="matrix(0.98699948,0,0,0.98699948,3.3281331,3.3281331)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4152"
-       id="linearGradient4168"
-       gradientUnits="userSpaceOnUse"
-       x1="256"
-       y1="512"
-       x2="256"
-       y2="0" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4152"
-       id="linearGradient4170"
-       gradientUnits="userSpaceOnUse"
-       x1="256"
-       y1="512"
-       x2="256"
-       y2="0" />
-  </defs>
-  <metadata
-     id="metadata90">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Gnome Symbolic Icon Theme</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <circle
-     style="opacity:1;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4166);stroke-width:37.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path4147"
-     cx="256"
-     cy="256"
-     r="237.25" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4168);stroke-width:62.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 256,106 0,150"
-     id="path4153"
-     inkscape:connector-curvature="0" />
-  <path
-     sodipodi:type="star"
-     style="opacity:1;fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4170);stroke-width:62.50000381;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path4155"
-     sodipodi:sides="3"
-     sodipodi:cx="256"
-     sodipodi:cy="311.42563"
-     sodipodi:r1="48.351254"
-     sodipodi:r2="24.175627"
-     sodipodi:arg1="-2.6179939"
-     sodipodi:arg2="-1.5707963"
-     inkscape:flatsided="true"
-     inkscape:rounded="0"
-     inkscape:randomized="0"
-     d="m 214.12659,287.25 83.74682,0 L 256,359.77688 Z"
-     inkscape:transform-center-y="12.087807" />
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title>Gnome Symbolic Icon Theme</title>
+ <defs>
+  <linearGradient id="linearGradient4152">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4166" y2="-18.714" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="530.72" gradientTransform="matrix(.96515 0 0 .96515 8.919 8.919)" x2="256" x1="256"/>
+  <linearGradient id="linearGradient4168" y2="-15.143" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="527.14" gradientTransform="matrix(.94416 0 0 .94416 14.288 23.538)" x2="256" x1="256"/>
+  <linearGradient id="linearGradient4170" y2="-13.143" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="529.14" gradientTransform="matrix(.94416 0 0 .94416 14.288 21.65)" x2="256" x1="256"/>
+ </defs>
+ <circle style="stroke:url(#linearGradient4166);stroke-width:48;fill-opacity:0" cx="256" r="232" cy="256"/>
+ <g transform="translate(.0086542 -9.2415)">
+  <path style="stroke:url(#linearGradient4168);stroke-width:64;fill:none" d="m256 114.38v141.62"/>
+  <path style="stroke:url(#linearGradient4170);stroke-width:64;fill-opacity:0" d="m216.46 283.62h79.069l-39.53 68.48z"/>
+ </g>
 </svg>

@@ -2,14 +2,17 @@
 <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <title>Gnome Symbolic Icon Theme</title>
  <defs>
-  <linearGradient id="linearGradient4335">
+  <linearGradient id="linearGradient4152">
    <stop style="stop-color:#3296ff" offset="0"/>
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient4343" xlink:href="#linearGradient4335" gradientUnits="userSpaceOnUse" x2="256" y1="-512" x1="256"/>
-  <linearGradient id="linearGradient4345" xlink:href="#linearGradient4335" gradientUnits="userSpaceOnUse" x2="256" y1="512" x1="256"/>
+  <linearGradient id="linearGradient4166" y2="-18.714" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="530.72" gradientTransform="matrix(.96515 0 0 .96515 8.919 8.919)" x2="256" x1="256"/>
+  <linearGradient id="linearGradient4168" y2="-15.143" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="527.14" gradientTransform="matrix(.94416 0 0 -.94416 14.288 506.94)" x2="256" x1="256"/>
+  <linearGradient id="linearGradient4170" y2="-13.143" xlink:href="#linearGradient4152" gradientUnits="userSpaceOnUse" y1="529.14" gradientTransform="matrix(.94416 0 0 -.94416 14.288 508.83)" x2="256" x1="256"/>
  </defs>
- <circle style="fill-opacity:0;stroke:url(#linearGradient4343);stroke-width:37.5" transform="scale(1,-1)" cy="-256" cx="256" r="237.25"/>
- <path d="m256 413.84v-150" style="fill-opacity:0;stroke:url(#linearGradient4345);stroke-width:62.5"/>
- <path style="fill-opacity:0;stroke:url(#linearGradient4343);stroke-width:62.5" d="m214.13-233.19h83.747l-41.88 72.53z" transform="scale(1,-1)"/>
+ <circle style="stroke:url(#linearGradient4166);stroke-width:48;fill-opacity:0" cx="256" r="232" cy="256"/>
+ <g transform="matrix(1 0 0 -1 .0086542 521.24)">
+  <path style="stroke:url(#linearGradient4168);stroke-width:64;fill:none" d="m256 114.38v141.62"/>
+  <path style="stroke:url(#linearGradient4170);stroke-width:64;fill-opacity:0" d="m216.46 283.62h79.069l-39.53 68.48z"/>
+ </g>
 </svg>
