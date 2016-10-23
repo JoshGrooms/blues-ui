@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00001 512.00001" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient8047" y2="540.36" gradientUnits="userSpaceOnUse" x2="256" y1="1052.4" x1="256">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0 -540.36)">
+  <path style="fill-rule:evenodd;fill:url(#linearGradient8047)" d="m107.43 995.41s-1.4328-455.05-1.4328-455.05 300.01 320.75 300.01 320.75l-129.62-2.9446 85.353 141.43-111.46 52.771-50.054-160.9-92.798 103.95z"/>
+ </g>
+</svg>

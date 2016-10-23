@@ -1,110 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="512"
-   height="512"
-   id="svg4359"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="Remove.svg">
-  <defs
-     id="defs4361">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4470">
-      <stop
-         style="stop-color:#3296ff;stop-opacity:1"
-         offset="0"
-         id="stop4472" />
-      <stop
-         style="stop-color:#00c8ff;stop-opacity:1"
-         offset="1"
-         id="stop4474" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4470"
-       id="linearGradient4476"
-       x1="240.35913"
-       y1="49.602859"
-       x2="240.35913"
-       y2="-466.14349"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(1.075e-6,0)" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.5744174"
-     inkscape:cx="273.18718"
-     inkscape:cy="204.46915"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:grid-bbox="true"
-     inkscape:document-units="px"
-     inkscape:window-width="2493"
-     inkscape:window-height="1416"
-     inkscape:window-x="1147"
-     inkscape:window-y="263"
-     inkscape:window-maximized="1"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     showguides="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:object-nodes="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:bbox-paths="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4105"
-       originx="1px"
-       originy="1px" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata4364">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(1,463)">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4476);stroke-width:37.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -0.99999107,-207 510.99999,-207"
-       id="path4468"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4138" y2="628.33" gradientUnits="userSpaceOnUse" x2="-160.63" gradientTransform="matrix(.65545 0 0 .65225 360.29 -648.83)" y1="726.46" x1="-160.63">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(1,463)">
+  <path style="stroke:url(#linearGradient4138);stroke-width:64;stroke-linecap:round;fill-opacity:0" d="m95.455-207h319.09"/>
+ </g>
 </svg>

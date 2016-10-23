@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <defs>
-  <linearGradient id="linearGradient4150" y2="-463" gradientUnits="userSpaceOnUse" x2="255" y1="49" x1="255">
+  <linearGradient id="linearGradient4150" y2="-463" gradientUnits="userSpaceOnUse" y1="49" x2="255" x1="255">
    <stop style="stop-color:#3296ff" offset="0"/>
    <stop style="stop-color:#00c8ff" offset="1"/>
   </linearGradient>
  </defs>
  <g transform="translate(1,463)">
-  <path style="stroke-linejoin:round;fill-opacity:0;stroke:url(#linearGradient4150);stroke-linecap:round;stroke-width:37.5" d="m125.15-444.25h259.71c6.3128 0 11.395 4.2681 11.395 9.5698v455.36c0 5.3017-5.0822 9.5698-11.395 9.5698l-129.86-64-129.86 64c-6.3128 0-11.395-4.2681-11.395-9.5698v-455.36c0-5.3017 5.0822-9.5698 11.395-9.5698z"/>
+  <path style="stroke-linejoin:round;fill-opacity:0;stroke:url(#linearGradient4150);stroke-linecap:round;stroke-width:48" d="m129.98-439h250.05c6.078 0 10.971 4.1737 10.971 9.358v445.28c0 5.1844-4.8931 9.358-10.971 9.358l-125.03-62.582-125.03 62.584c-6.08 0-10.97-4.174-10.97-9.358v-445.28c0-5.1844 4.8931-9.358 10.971-9.358z"/>
  </g>
 </svg>

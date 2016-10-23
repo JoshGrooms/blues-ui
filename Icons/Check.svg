@@ -1,111 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="512"
-   height="512"
-   id="svg4359"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="Check.svg">
-  <defs
-     id="defs4361">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4525">
-      <stop
-         style="stop-color:#3296ff;stop-opacity:1"
-         offset="0"
-         id="stop4527" />
-      <stop
-         style="stop-color:#00c8ff;stop-opacity:1"
-         offset="1"
-         id="stop4529" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4525"
-       id="linearGradient4531"
-       x1="255"
-       y1="-5.3910952"
-       x2="255"
-       y2="-408.60889"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99036018,0,0,0.9900876,2.4581551,-2.5446832)" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.5566406"
-     inkscape:cx="-497.63248"
-     inkscape:cy="-128.88912"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:grid-bbox="true"
-     inkscape:document-units="px"
-     inkscape:window-width="2493"
-     inkscape:window-height="1416"
-     inkscape:window-x="1147"
-     inkscape:window-y="263"
-     inkscape:window-maximized="1"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     showguides="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:snap-bbox="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-object-midpoints="true"
-     inkscape:snap-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:object-nodes="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:bbox-paths="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4105"
-       originx="1px"
-       originy="1px" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata4364">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(1,463)">
-    <path
-       inkscape:connector-curvature="0"
-       id="path4517"
-       d="m 497.59017,-396.29077 -364.55904,372.938311 0,0 L 12.409828,-146.7462"
-       style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:url(#linearGradient4531);stroke-width:37.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cccc" />
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4525">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4200" y2="-530.08" xlink:href="#linearGradient4525" gradientUnits="userSpaceOnUse" x2="346.65" gradientTransform="translate(.0000026252 -.032994)" y1="-66.197" x1="346.65"/>
+ </defs>
+ <g transform="translate(1,463)">
+  <g style="stroke:url(#linearGradient4200);stroke-width:50.937" transform="matrix(.92131 0 0 .89738 -64.368 60.545)">
+   <path style="fill-opacity:0;stroke:url(#linearGradient4200);stroke-linecap:round;stroke-width:70.387" d="m588.97-494.53-364.16 377.63-120.49-124.94"/>
   </g>
+ </g>
 </svg>
