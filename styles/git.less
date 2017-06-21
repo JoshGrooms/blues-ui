@@ -7,3 +7,74 @@
 .status-modified { .text(warning); }
 .status-removed { .text(error); }
 .status-renamed { .text(info); }
+
+.github-CommitView-editor
+{
+    .deep-inset();
+    .editor
+    {
+        .flat();
+    }
+}
+.github-FilePatchView-container
+{
+    .deep-inset();
+    background-color:  @light-black;
+}
+.github-HunkView-header
+{
+    background-color:           transparent;
+}
+.github-HunkView-line
+{
+    &.is-added,
+    &.is-deleted,
+    &.is-added.is-selected,
+    &.is-deleted.is-selected
+    {
+        background-color:       @light-black;
+        .github-HunkView-lineContent
+        {
+            background-color:   @light-black;
+        }
+        .github-HunkView-lineNumber
+        {
+            background-color:   @light-black;
+        }
+    }
+
+    &.is-added,
+    &.is-added.is-selected
+    {
+        color:                  @text-version-added;
+        .github-HunkView-lineContent
+        {
+            color:              @text-version-added;
+        }
+        .github-HunkView-lineNumber
+        {
+            color:              @text-version-added;
+        }
+    }
+
+    &.is-deleted,
+    &.is-deleted.is-selected
+    {
+        color:                  @text-version-removed;
+        .github-HunkView-lineContent
+        {
+            color:              @text-version-removed;
+        }
+        .github-HunkView-lineNumber
+        {
+            color:              @text-version-removed;
+        }
+    }
+
+
+}
+.github-StagingView-list
+{
+    .deep-inset();
+    margin-right:  0.375em;
+}
