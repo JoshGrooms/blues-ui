@@ -11,12 +11,22 @@
 {
     .shallow-inset();
 
-    border-radius:          0.25em;
-    margin:                 @tab-bar-margin 0em @tab-bar-margin 0em;
+    border-radius:              0.25em;
+    margin:                     @tab-bar-margin 0em @tab-bar-margin 0em;
+
+    atom-panel-container.left &
+    {
+         .flat();
+         .tab
+         {
+             .flat();
+             color:             transparent;
+         }
+    }
 
     &::-webkit-scrollbar
     {
-        display: none;
+        display:                none;
     }
 
     .tab
