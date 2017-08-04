@@ -38,10 +38,12 @@
     }
 
     .package-card,
-    .package-card:hover
+    .package-card:hover,
+    .package-detail .package-card,
+    .package-detail .package-card:hover,
     {
         .shallow-outset();
-        border-radius: 0.25em;
+        border-radius: 0.5em;
 
         .card-name a            { .heading(quaternary); }
         .package-description    { .text(subtle); }
