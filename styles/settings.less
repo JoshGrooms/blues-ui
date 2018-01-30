@@ -10,31 +10,31 @@
         .active a
         {
             .heading(tertiary);
-            color: @selection-color;
+            color:              @selection-color;
         }
     }
 
     .link,
-    .link:hover             { color: @link-color; }
-    .setting-description    { .text(subtle); }
-    .setting-title          { .heading(quaternary); }
+    .link:hover                 { color: @link-color; }
+    .setting-description        { .text(subtle); }
+    .setting-title              { .heading(quaternary); }
 
     .config-menu
     {
-        background-color: transparent;
-        padding-top: 0.125em;
+        background-color:       transparent;
+        padding-top:            0.125em;
 
         li.active > a
         {
-            background-image: @vibrant-blue-gradient;
+            background-image:   @vibrant-blue-gradient;
         }
         li:hover > a
         {
-            background-image: @silver-gradient-horizontal;
+            background-image:   @silver-gradient-horizontal;
             &::before           { -webkit-filter: brightness(0); }
         }
 
-        .btn { font-size: 0.875em; padding-top: 0.125em; }
+        .btn { font-size: 0.875em; }
     }
 
     .package-card,
