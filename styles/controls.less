@@ -63,29 +63,27 @@ atom-text-editor[mini].is-focused
     padding:                0em 1em 0em 1em;
 
     &::-webkit-scrollbar    { display: none; }
-    &::shadow
+    .text,
+    .placeholder-text       { font-size: 0.875em;}
+    .cursor
+    {
+        border-color:       @text-color;
+        height:             1.25em !important;
+        margin-top:         0.375em;
+    }
+    .has-selection
     {
         .text,
-        .placeholder-text       { font-size: 0.875em;}
-        .cursor
-        {
-            border-color:   @text-color;
-            height:         1.25em !important;
-            margin-top:     0.375em;
-        }
-        .has-selection
-        {
-            .text,
-            .placeholder-text   { color: @text-color-highlighted; }
+        .placeholder-text   { color: @text-color-highlighted; }
 
-            .highlight.selection .region
-            {
-                background-color:   @highlight-color;
-                height:             1.25em !important;
-                margin-top:         0.375em;
-            }
+        .highlight.selection .region
+        {
+            background-color:   @highlight-color;
+            height:             1.25em !important;
+            margin-top:         0.375em;
         }
     }
+    div
 }
 
 select.form-control
