@@ -28,8 +28,8 @@
 }
 .text(success)
 {
-    color: @text-color-success;
-    text-shadow: none;
+    color:          @text-color-success;
+    text-shadow:    none;
 }
 
 .text(subtle)
@@ -40,8 +40,8 @@
 }
 .text(warning)
 {
-    color: @text-color-warning;
-    text-shadow: none;
+    color:          @text-color-warning;
+    text-shadow:    none;
 }
 
 
@@ -137,8 +137,8 @@
     .flat-list();
     li.selected:before
     {
-        display: inherit;
-        background-image: @vibrant-blue-gradient;
+        display:                    inherit;
+        background-image:           @vibrant-blue-gradient;
     }
 }
 
@@ -154,7 +154,7 @@
     ol
     {
         .deep-inset();
-        border-radius: 0.25em;
+        border-radius:              0.25em;
     }
 
 }
@@ -163,16 +163,16 @@
 {
     .bevel(inset);
 
-    background-color:       @inset-color;
-    box-shadow:             inset 1px 2px 3px fade(@black, 37.5%);
+    background-color:               @inset-color;
+    box-shadow:                     inset 1px 2px 3px fade(@black, 37.5%);
 }
 .shallow-outset()
 {
     .bevel(outset);
 
-    background-color:       @menu-color;
-    box-shadow:             3px 3px 5px fade(@black, 25%),
-                            -1px -1px 1px fade(lighten(@black, 14.29%), 87.5%);
+    background-color:               @menu-color;
+    box-shadow:                     3px 3px 5px fade(@black, 25%),
+                                    -1px -1px 1px fade(lighten(@black, 14.29%), 87.5%);
 }
 
 
