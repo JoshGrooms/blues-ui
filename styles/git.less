@@ -1,12 +1,12 @@
 @import "ui-mixins";
 @import "ui-variables";
 
-.status { .text(normal); }
-.status-added { .text(success); }
-.status-ignored { .text(subtle); }
-.status-modified { .text(warning); }
-.status-removed { .text(error); }
-.status-renamed { .text(info); }
+.status             { .text(normal); }
+.status-added       { .text(success); }
+.status-ignored     { .text(normal); }
+.status-modified    { .text(warning); }
+.status-removed     { .text(error); }
+.status-renamed     { .text(info); }
 
 .github-CommitView-editor
 {
@@ -19,7 +19,7 @@
 .github-FilePatchView-container
 {
     .deep-inset();
-    background-color:  @light-black;
+    background-color:           @light-black;
 }
 .github-HunkView-header
 {
@@ -76,5 +76,5 @@
 .github-StagingView-list
 {
     .deep-inset();
-    margin-right:  0.375em;
+    margin-right:               0.375em;
 }
