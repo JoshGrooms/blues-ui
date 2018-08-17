@@ -62,6 +62,8 @@ atom-text-editor[mini].is-focused
     opacity:                1 !important;
     padding:                0em 1em 0em 1em;
 
+    > div                   { background-color: transparent !important; }
+
     &::-webkit-scrollbar    { display: none; }
     .text,
     .placeholder-text       { font-size: 0.875em;}
@@ -82,10 +84,6 @@ atom-text-editor[mini].is-focused
             height:             1.25em !important;
             margin-top:         0.375em;
         }
-    }
-    div
-    {
-        background-color:       transparent !important;
     }
 }
 
