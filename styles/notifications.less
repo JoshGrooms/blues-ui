@@ -1,0 +1,24 @@
+@import "ui-variables";
+
+
+atom-notifications atom-notification
+{
+    .shallow-outset();
+    border-radius:              0.5em;
+
+    &.error,
+    &.info,
+    &.fatal,
+    &.success,
+    &.warning
+    {
+        &.icon:before,
+        .content,
+        .item
+        {
+            background-color:   transparent;
+        }
+
+        .close-all.btn:extend(.btn) { }
+    }
+}
