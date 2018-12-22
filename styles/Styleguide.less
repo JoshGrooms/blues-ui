@@ -1,0 +1,49 @@
+/* STYLEGUIDE - Governs the page displayed by the 'Styleguide' package provided by Atom. */
+.styleguide
+{
+    .deep-inset();
+    padding: 0px;
+
+    header
+    {
+        background-color:   @gloss-color;
+        border:             none;
+        box-shadow:         inset 0px 0px 3px @shadow-color,
+                            0px 5px 3px -3px @shadow-color;
+
+        h1                  { .heading(primary); }
+    }
+
+    section,
+    styleguide-sections,
+    .section
+    {
+        background-color:   @inset-color-dark;
+        border-bottom:      2px solid @shadow-color;
+        border-top:         1px solid @gloss-color;
+
+        .section-heading,
+        .section-heading.section-heading,
+        {
+            .heading(primary);
+            color:          @text-color-lighter;
+            &:hover         { color: @text-color-lighter; }
+        }
+
+        &.collapsed .section-heading,
+        &.collapsed .section-heading.section-heading,
+        {
+            .heading(secondary);
+            color:          @text-color-light;
+            &:hover         { color: @text-color-highlighted; }
+        }
+
+        .example .example-rendered
+        {
+            .shallow-inset();
+            background-color: @window-color;
+            border-radius:  0.5em;
+        }
+        h2 { .heading(tertiary); }
+    }
+}

@@ -87,41 +87,6 @@
     .package-readme h1          { .heading(secondary); }
 }
 
-/* STYLEGUIDE - Governs the page displayed by the 'Styleguide' package provided by Atom. */
-.styleguide
-{
-    .deep-inset();
-    padding: 0px;
-
-    header
-    {
-        background-color:   @gloss-color;
-        border:             none;
-        box-shadow:         inset 0px 0px 3px @shadow-color,
-                            0px 5px 3px -3px @shadow-color;
-    }
-
-    section,
-    .section
-    {
-        background-color:   @inset-color-dark;
-        border-bottom:      2px solid @shadow-color;
-        border-top:         1px solid @gloss-color;
-
-        .section-heading
-        {
-            .heading(primary);
-            &:hover     { color: @highlight-color !important; }
-        }
-        &.collapsed .section-heading
-        {
-            color: @text-color-folded !important;
-            &:hover { color: @highlight-color !important; }
-        }
-
-        h2 { .heading(tertiary); }
-    }
-}
 
 .welcome
 {
