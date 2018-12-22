@@ -5,7 +5,7 @@
 /** DEFAULT STYLE **/
 * {
     .flat();
-	box-sizing:    border-box;
+    box-sizing:    border-box;
     text-shadow:   none;
     outline:       none;
 }
@@ -14,29 +14,29 @@
 
 .scrollbars-visible-always
 {
-	z-index: 5;
+    z-index: 5;
 
-  	/deep/ ::-webkit-scrollbar
-	{
+  	::-webkit-scrollbar
+    {
     	width: 10px !important;
     	height: 10px !important;
   	}
 
-	/deep/ ::-webkit-scrollbar-track
-	{
+    ::-webkit-scrollbar-track
+    {
         .shallow-inset();
         border:         none;
-		border-radius: 	2em;
+        border-radius: 	2em;
   	}
 
-	/deep/ ::-webkit-scrollbar-corner
-	{
-		background: transparent;
-	}
+    ::-webkit-scrollbar-corner
+    {
+        background: transparent;
+    }
 
-	/deep/ ::-webkit-scrollbar-thumb
-	{
-		background: @scrollbar-foreground-color;
+    ::-webkit-scrollbar-thumb
+    {
+        background: @scrollbar-foreground-color;
     	border-radius: 2em;
     	box-shadow: 0 0 1px black inset;
   	}

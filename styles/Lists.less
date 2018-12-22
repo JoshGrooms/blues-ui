@@ -2,9 +2,7 @@
 @import "ui-mixins";
 
 
-/* LIST-GROUP - Governs any general list of items.
- *
- */
+/* LIST-GROUP - Governs any general list of items. */
 .list-group
 {
     .flat-list();
@@ -42,19 +40,15 @@ li.ui-sortable-helper
 .tree-view
 {
     .tree-list();
-
-    // .selected .icon::before     { -webkit-filter: brightness(0); }
     .status-added               { color: @text-version-added; }
     .status-modified            { color: @text-version-modified; }
-
-
 }
 
 .tree-view-resizer
 {
-  .tree-view-resize-handle
-  {
-      background-color: transparent;
-      width: 1em;
-  }
+    .tree-view-resize-handle
+    {
+        background-color: transparent;
+        width: 1em;
+    }
 }

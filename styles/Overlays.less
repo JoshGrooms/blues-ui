@@ -5,8 +5,8 @@
 .modal.from-top
 {
     .shallow-outset();
-    border-radius: 0.5em;
-    padding: 0.5em;
+    border-radius:      0.5em;
+    padding:            0.125em;
 }
 
 /* POPOVER-LIST - Governs the lists that appear in smaller modal windows and overlays. */
@@ -14,19 +14,15 @@
 {
     .shallow-outset();
     .flat-list();
-    border-radius: 0.5em;
+    border-radius:      0.5em;
+    padding:            0.25em;
 
     &.autocomplete-suggestion-list
     {
-        max-width: 400px;
-
         &.select-list > .suggestion-description
         {
-            // background-color: @autocomplete-description-color;
-            background-color: transparent;
-            border-top: 1px solid @gloss-color;
-            color: @text-color;
-
+            background-color:   transparent;
+            border-top:         1px solid @gloss-color;
         }
         .suggestion-list-scroller
         {
@@ -37,9 +33,4 @@
             li { background-color: transparent; }
         }
     }
-}
-
-.autocomplete-plus
-{
-    max-width: 400px;
 }
