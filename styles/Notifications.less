@@ -21,4 +21,19 @@ atom-notifications atom-notification
 
         .close-all.btn:extend(.btn) { }
     }
+
+    &.error,
+    &.fatal
+    {
+        .detail-content,
+        .description
+        {
+             color: @text-color;
+        }
+
+        .btn-error
+        {
+            color: @black;
+        }
+    }
 }
