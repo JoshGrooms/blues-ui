@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00001 512.00001" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4194" gradientUnits="userSpaceOnUse" x2="256" x1="256" y1="512">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4364" y2="668.13" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1508.6" gradientTransform="matrix(.41379 0 0 0.4 -368.24 -267.25)" y1="1948.1" x1="1508.6"/>
+  <linearGradient id="linearGradient4549" y2="515.63" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1532.1" gradientTransform="matrix(.82759 0 0 .66667 -1012 -279.76)" y1="1155.6" x1="1532.1"/>
+  <linearGradient id="linearGradient4692" y2="835.63" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1532.1" gradientTransform="matrix(.82759 0 0 .66667 -1012 -535.76)" y1="1475.6" x1="1532.1"/>
+  <linearGradient id="linearGradient4779" y2="844" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1514.4" gradientTransform="translate(-1646.4 -693.49)" y1="1355" x1="1514.4"/>
+  <linearGradient id="linearGradient4793" y2="844" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1514.4" gradientTransform="translate(-1370.4 -827.49)" y1="1355" x1="1514.4"/>
+  <linearGradient id="linearGradient4833" y2="28.134" xlink:href="#linearGradient4194" gradientUnits="userSpaceOnUse" x2="1508.6" gradientTransform="matrix(.41379 0 0 0.4 -368.24 -11.254)" y1="1308.1" x1="1508.6"/>
+ </defs>
+ <rect style="stroke-linejoin:round;stroke:url(#linearGradient4549);stroke-width:64;fill:none" height="160" width="192" y="304" x="160"/>
+ <rect style="stroke-linejoin:round;stroke:url(#linearGradient4692);stroke-width:64;fill:none" height="160" width="192" y="48" x="160"/>
+ <rect style="stroke:url(#linearGradient4364);stroke-width:96;fill:none" height="96" width="96" y="80" x="208"/>
+ <g transform="translate(64 16)">
+  <g transform="translate(276 -198)">
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 198v32"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 390v32"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 262v32"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 326v32"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 454v32"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 518v32"/>
+   <path d="m-260 582v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+  </g>
+  <path d="m16 448v32" style="stroke-linejoin:round;stroke:url(#linearGradient4793);stroke-width:32;fill:none"/>
+ </g>
+ <g transform="translate(416 16)">
+  <g transform="translate(276 -198)">
+   <path d="m-260 198v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path d="m-260 390v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path d="m-260 262v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path d="m-260 326v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path d="m-260 454v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path d="m-260 518v32" style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none"/>
+   <path style="stroke-linejoin:round;stroke:url(#linearGradient4779);stroke-width:32;fill:none" d="m-260 582v32"/>
+  </g>
+  <path style="stroke-linejoin:round;stroke:url(#linearGradient4793);stroke-width:32;fill:none" d="m16 448v32"/>
+ </g>
+ <rect style="stroke:url(#linearGradient4833);stroke-width:96;fill:none" height="96" width="96" y="336" x="208"/>
+</svg>

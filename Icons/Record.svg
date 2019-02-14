@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="linearGradient4153" x1="255" x2="255" y1="1053.4" y2="541.36" gradientTransform="matrix(.26976 0 0 .26976 186.21 582.27)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#9632ff" offset="0"/>
+   <stop stop-color="#af64ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient839" x1="255" x2="255" y1="1509.1" y2="85.61" gradientTransform="matrix(.31472 0 0 .31472 175.75 5.057)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4153"/>
+  <linearGradient id="linearGradient841" x1="255" x2="255" y1="1441.3" y2="153.4" gradientTransform="matrix(.34785 0 0 .34785 167.3 -21.358)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4153"/>
+ </defs>
+ <g fill-opacity="0">
+  <circle cx="256" cy="256" r="82.526" stroke="url(#linearGradient841)" stroke-width="282.95"/>
+  <circle cx="256" cy="256" r="74.667" stroke="url(#linearGradient839)" stroke-width="150"/>
+ </g>
+</svg>

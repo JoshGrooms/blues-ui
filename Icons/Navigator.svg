@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00001 512.00001" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient4156">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4162" x1="256" xlink:href="#linearGradient4156" gradientUnits="userSpaceOnUse" x2="256" gradientTransform="matrix(.97990 0 0 .97990 5.1445 -524.36)" y1="1057.7" y2="535.11"/>
+  <linearGradient id="linearGradient4170" x1="256" xlink:href="#linearGradient4156" gradientUnits="userSpaceOnUse" y1="1052.4" gradientTransform="translate(0,-540.36)" x2="256" y2="540.36"/>
+ </defs>
+ <circle r="232.48" cy="256" cx="256" style="stroke-linejoin:round;stroke:url(#linearGradient4162);stroke-width:47.035;fill:none"/>
+ <path d="m391.41 120.07c-9.64-1.41-152.38 118.96-152.38 118.96s-124.22 147.31-118.79 152.73c5.42 5.43 152.73-118.79 152.73-118.79s124.22-147.31 118.79-152.73c-0.08-0.09-0.2-0.14-0.35-0.17zm-135.41 119.93a16 16 0 0 1 16 16 16 16 0 0 1 -16 16 16 16 0 0 1 -16 -16 16 16 0 0 1 16 -16z" style="fill:url(#linearGradient4170);fill-rule:evenodd"/>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 512.00001 512.00001">
+ <defs>
+  <linearGradient id="linearGradient4154" x1="256" gradientUnits="userSpaceOnUse" y1="933.68" gradientTransform="translate(-5.1513176e-6,-4.1849e-6)" x2="256" y2="645.22">
+   <stop style="stop-color:#3296ff" offset="0"/>
+   <stop style="stop-color:#00c8ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0 -540.36)">
+  <g style="fill:url(#linearGradient4154)">
+   <path style="fill:url(#linearGradient4154)" d="m280.89 925.81-2.34 7.8708h-118.7l2.9781-7.8708q17.869-0.42545 23.612-2.9782 9.3599-3.6163 13.827-9.998 7.0199-9.9981 14.465-35.738l50.2-174.02q6.3817-21.698 6.3817-32.76 0-5.5308-2.7654-9.3599-2.7654-3.829-8.509-5.7436-5.5308-2.1272-21.911-2.1272l2.5527-7.8708h111.47l-2.34 7.8708q-13.614-0.21273-20.209 2.9781-9.5726 4.2545-14.678 12.125-4.8927 7.8708-12.763 34.887l-49.99 174.01q-6.8072 24.038-6.8072 30.632 0 5.3181 2.5527 9.1472 2.7654 3.6163 8.509 5.7436 5.9563 1.9145 24.463 3.1909z"/>
+  </g>
+ </g>
+</svg>
