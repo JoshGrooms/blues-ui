@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 512.00001 512.00001"
    id="svg15"
-   sodipodi:docname="Git-Subtract.svg"
+   sodipodi:docname="Git-Change.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata19">
@@ -23,6 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,9 +40,9 @@
      inkscape:window-height="1373"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="0.4609375"
-     inkscape:cx="256"
-     inkscape:cy="256"
+     inkscape:zoom="0.32593203"
+     inkscape:cx="-119.30521"
+     inkscape:cy="303.88111"
      inkscape:window-x="2393"
      inkscape:window-y="507"
      inkscape:window-maximized="0"
@@ -67,12 +68,12 @@
     <linearGradient
        id="linearGradient4172"
        x1="925.15002"
-       xlink:href="#linearGradient4149"
+       xlink:href="#linearGradient4160"
        gradientUnits="userSpaceOnUse"
        x2="563.10999"
        gradientTransform="matrix(0.97788,0,0,0.97788,-365.63,-373.64)"
        y1="563.10999"
-       y2="201.07001" />
+       y2="201.06999" />
     <linearGradient
        id="linearGradient4138-4"
        y2="-71.709999"
@@ -219,6 +220,16 @@
        x2="159.68553"
        y1="14.403693"
        x1="159.68553" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4160"
+       id="linearGradient915"
+       x1="71.595551"
+       y1="-329.39636"
+       x2="71.595505"
+       y2="-872.50299"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.80664063,0,0,0.80664063,198.25,740.75)" />
   </defs>
   <rect
      style="stroke-linejoin:round;stroke:url(#linearGradient4172);stroke-width:48;fill:none"
@@ -228,8 +239,10 @@
      y="-164.05"
      x="197.99"
      id="rect11" />
-  <path
-     style="stroke:url(#linearGradient4138-4);stroke-width:48.001;stroke-linecap:round;fill-opacity:0"
-     d="m184.34 256h143.31"
-     id="path13" />
+  <circle
+     style="opacity:1;fill:#252525;fill-opacity:0;stroke:url(#linearGradient915);stroke-width:48;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path907"
+     cx="256"
+     cy="256"
+     r="56" />
 </svg>
